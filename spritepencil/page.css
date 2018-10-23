@@ -1,0 +1,57 @@
+.banner {
+    background: url("banner.jpg") no-repeat center center;
+    background-size: cover;
+}
+.developer {
+    padding-bottom: 64px;
+    background: url("setting_game.jpg") no-repeat center center;
+    background-size: cover;
+}
+.full {
+    width: 100vw;
+}
+.apps {
+    display: flex;
+    overflow-x: scroll;
+    padding: 12px;
+    justify-content: center;
+    scroll-snap-type: mandatory;
+}
+.apps div {
+    scroll-snap-align: center none;
+    text-align: center;
+    text-decoration: none;
+}
+.apps div img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 87%;
+}
+.apps div h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#shot-sp {
+    background-image: url(shot_sp.jpg);
+}
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (max-width: 490px) /* Compact Width */ {
+    .features {
+        justify-content: left;
+    }
+}
+.features img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+.features figcaption {
+    width: 170px;
+}
+.features figcaption p {
+    font-size: 0.8em;
+}
