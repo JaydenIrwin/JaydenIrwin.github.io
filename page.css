@@ -1,0 +1,168 @@
+.banner {
+    background: linear-gradient(#f6f, #77f);
+    display: flex;
+    max-height: calc(100vh - 44px);
+    align-items: center;
+}
+.intro img {
+    width: 200px;
+    height: 200px;
+    margin: 4px;
+    margin-bottom: 16px;
+    border-radius: 1000px;
+}
+.color-bg footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #eee3;
+}
+.color-bg footer p.minor, .color-bg footer a {
+    color: #fff;
+}
+.developer {
+    padding-bottom: 64px;
+    background: url("setting_game.jpg") no-repeat center center;
+    background-size: cover;
+}
+.full {
+    width: 100vw;
+}
+.apps {
+    display: flex;
+    padding: 12px 0;
+    overflow-x: scroll;
+    -webkit-scroll-snap-type: mandatory;
+    scroll-snap-type: mandatory;
+}
+.apps a {
+    -webkit-scroll-snap-align: center;
+    scroll-snap-align: center;
+    text-align: center;
+    text-decoration: none;
+    min-width: 375px;
+    width: 90vw;
+    flex-shrink: 0;
+}
+.apps a:first-child {
+    padding-left: calc(50vw - 164px);
+    width: calc(50vw + 164px);
+}
+.apps a:last-child {
+    padding-right: calc(50vw - 164px);
+    width: calc(50vw + 164px);
+}
+.apps a img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 87%;
+}
+.apps a h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#shot-lp {
+    background-image: url(shot_lp.jpg);
+}
+#shot-fa {
+    background-image: url(shot_fa.jpg);
+}
+#shot-sp {
+    background-image: url(shot_sp.jpg);
+}
+.cards {
+    display: flex;
+    overflow-x: scroll;
+    padding: 32px 12px;
+    -webkit-scroll-snap-type: mandatory;
+    scroll-snap-type: mandatory;
+}
+.cards>a, .cards>* {
+    padding: 0;
+    text-decoration: none;
+    -webkit-scroll-snap-align: start;
+    scroll-snap-align: start;
+    -webkit-scroll-snap-margin: 12px;
+    scroll-snap-margin: 12px;
+}
+.cards>*>div {
+    height: 290px;
+    width: 375px;
+    max-width: calc(100vw - 32px);
+    flex-shrink: 0;
+    padding: 12px;
+    margin: 4px;
+    border-radius: var(--border-radius);
+    vertical-align: top;
+    text-align: left;
+    white-space: initial;
+    position: relative;
+}
+.cards>*:last-child>div {
+    margin-right: 16px;
+}
+.cards img {
+    border-radius: 6px;
+}
+.cards h1 {
+    color: #fff;
+    margin: 0;
+}
+.cards a:hover h1 {
+    color: #fff;
+}
+.cards p {
+    position: absolute;
+    font-size: 0.95em;
+    bottom: 8px;
+    color: #fff;
+}
+.cards #jaydenirwin {
+    background: linear-gradient(#f6f, #77f);
+}
+.cards #max {
+    background: linear-gradient(transparent, rgba(0,0,0,0.5)), url("bg_max.jpg");
+    background-size: cover;
+}
+.cards #atpc {
+    background-color: #ffbf01;
+    background-image: linear-gradient(rgba(255,191,1,0), #ffbf01), url("bg_atpc.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.cards #myguitar {
+    background: linear-gradient(transparent, tan), url("bg_myguitar.jpg");
+    background-size: cover;
+}
+.cards #trimline {
+    background: linear-gradient(#ec2031, #812);
+}
+.cards #fence {
+    background: linear-gradient(transparent, #007723), url("bg_fence.jpg");
+    background-size: cover;
+}
+.web.dark-theme {
+    background: linear-gradient(#000, #333);
+}
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (max-width: 490px) /* Compact Width */ {
+    .features {
+        justify-content: left;
+    }
+}
+.features img {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+.features figcaption {
+    width: 170px;
+}
+.features figcaption p {
+    font-size: 0.8em;
+}
