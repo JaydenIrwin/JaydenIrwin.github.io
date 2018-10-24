@@ -21,7 +21,7 @@
     color: #fff;
 }
 .developer {
-    padding-bottom: 64px;
+    padding-bottom: 0;
     background: url("setting_game.jpg") no-repeat center center;
     background-size: cover;
 }
@@ -31,6 +31,7 @@
 .apps {
     display: flex;
     padding: 12px 0;
+    padding-bottom: 64px;
     overflow-x: scroll;
     -webkit-scroll-snap-type: mandatory;
     scroll-snap-type: mandatory;
