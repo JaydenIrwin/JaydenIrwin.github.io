@@ -68,7 +68,7 @@ body header nav {
     padding: 0 12px;
 }
 @supports(padding: max(0px)) {
-    body header nav {
+    body header nav, body section section {
         padding-left: max(12px, env(safe-area-inset-left));
         padding-right: max(12px, env(safe-area-inset-right));
     }
