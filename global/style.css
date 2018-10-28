@@ -67,6 +67,12 @@ body header nav {
     justify-content: space-between;
     padding: 0 12px;
 }
+@supports(padding: max(0px)) {
+    body header nav {
+        padding-left: max(12px, env(safe-area-inset-left));
+        padding-right: max(12px, env(safe-area-inset-right));
+    }
+}
 body.prefers-button-shapes nav a {
     flex-basis: 33%;
     flex-shrink: 1;
