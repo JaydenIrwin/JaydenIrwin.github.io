@@ -5,19 +5,19 @@
 .full {
     width: 100vw;
 }
-.feature section, {
+.feature section {
     display: flex;
     align-items: center;
 }
-.feature section h1, {
+.feature section h1 {
     text-align: left;
     width: 250px;
 }
 @media (max-width: 490px) /* Compact Width */ {
-    .feature section, {
+    .feature section {
         flex-direction: column;
     }
-    .feature section h1, {
+    .feature section h1 {
         text-align: center;
         width: initial;
     }
