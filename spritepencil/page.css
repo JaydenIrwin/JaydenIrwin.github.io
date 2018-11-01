@@ -26,8 +26,11 @@
     padding-bottom: 0;
     margin-bottom: 0;
 }
-#shot-sp {
-    background-image: url(shot_sp.jpg);
+#shot1 {
+    background-image: url(shot1.jpg);
+}
+#shot2 {
+    background-image: url(shot2.jpg);
 }
 .features {
     display: flex;
