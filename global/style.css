@@ -11,6 +11,18 @@
     --tint-color: #e6e;
     --border-radius: 16px;
 }
+@media (prefers-dark-interface) {
+	:root {
+	    --content-bg-color: #111;
+	    --alt-bg-color: #000;
+	    --heading-text-color: #fff;
+	    --text-color: #ddd;
+	    --inverted-text-color: #000;
+	    --transparent-header-color: rgba(17, 17, 17, 0.85);
+	    --minor-text-color: #888;
+	    --border-color: #b3b3b3;
+	}
+}
 :root[data-theme="dark"], .dark-theme {
     --content-bg-color: #111;
     --alt-bg-color: #000;

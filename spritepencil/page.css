@@ -59,6 +59,9 @@ h1 {
 #shot2 {
     background-image: url(shot2.jpg);
 }
+#shot3 {
+    background-image: url(shot3.jpg);
+}
 .features {
     display: flex;
     justify-content: center;
