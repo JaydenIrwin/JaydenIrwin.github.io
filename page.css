@@ -52,7 +52,7 @@
     width: calc(50vw + 164px);
 }
 @media (max-width: 400px) /* Fix For Small Phones */ {
-    .apps a {
+    .apps a:first-child, .apps a:last-child {
         padding-left: initial;
         padding-right: initial;
     }
