@@ -32,11 +32,10 @@
     padding: 12px 0;
     padding-bottom: 64px;
     overflow-x: scroll;
-    -webkit-scroll-snap-type: mandatory;
     scroll-snap-type: mandatory;
+    -webkit-overflow-scrolling: touch;
 }
 .apps a {
-    -webkit-scroll-snap-align: center;
     scroll-snap-align: center;
     text-align: center;
     text-decoration: none;
@@ -51,6 +50,12 @@
 .apps a:last-child {
     padding-right: calc(50vw - 164px);
     width: calc(50vw + 164px);
+}
+@media (max-width: 400px) /* Fix For Small Phones */ {
+    .apps a {
+        padding-left: initial;
+        padding-right: initial;
+    }
 }
 .apps a img {
     background-position: center;
