@@ -105,7 +105,6 @@ footer {
 /* General */
 .banner {
     height: 540px;
-    max-height: calc(100vh - 44px);
 }
 a.button, img, figcaption, input, textarea {
     margin: 4px;
