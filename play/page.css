@@ -7,6 +7,11 @@
     background: url("banner.jpg") no-repeat center center;
     background-size: cover;
 }
+@media (prefers-color-scheme: light) {
+    .lego {
+        background-color: var(--alt-bg-color);
+    }
+}
 .models {
     display: flex;
     flex-wrap: wrap;
