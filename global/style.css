@@ -88,10 +88,6 @@ body header nav {
         padding-right: max(12px, env(safe-area-inset-right));
     }
 }
-body.prefers-button-shapes nav a {
-    flex-basis: 33%;
-    flex-shrink: 1;
-}
 nav a, footer section a {
     line-height: 36px;
     margin: 4px;
@@ -152,10 +148,6 @@ a:hover {
 a:hover, a:hover h1, a:hover h2, a:hover h3 {
     color: var(--tint-color);
 }
-.prefers-button-shapes a {
-    border-radius: 6px;
-    background-color: rgba(128, 128, 128, 0.2);
-}
 a.selected {
     color: var(--text-color) !important;
 }
@@ -206,9 +198,6 @@ form.contact-form {
     border-radius: var(--border-radius);
     box-shadow: 0 0 64px rgba(0,0,0,0.2);
     text-align: left;
-}
-.contact-form input, .contact-form textarea, a.button {
-	background-color: var(--alt-bg-color);
 }
 .contact-form div.g-recaptcha {
     margin: 4px;
