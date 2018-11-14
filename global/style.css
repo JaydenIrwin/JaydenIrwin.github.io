@@ -10,6 +10,7 @@
     --border-color: #b3b3b3;
     --tint-color: #e6e;
     --control-color: #f7f7f7;
+    --control-text-color: #000;
     --border-radius: 16px;
 }
 @media (prefers-color-scheme: dark) {
@@ -22,6 +23,7 @@
 	    --transparent-header-color: rgba(17, 17, 17, 0.85);
 	    --minor-text-color: #888;
         --control-color: #fff4;
+        --control-text-color: #fff;
 	    --border-color: #b3b3b3;
 	}
 }
@@ -34,6 +36,7 @@
     --transparent-header-color: rgba(17, 17, 17, 0.85);
     --minor-text-color: #888;
     --control-color: #fff4;
+    --control-text-color: #fff;
     --border-color: #b3b3b3;
 }
 body.window-inactive {
@@ -219,7 +222,7 @@ input, textarea {
     width: calc(100% - 8px);
     border-radius: 12px;
     background-color: var(--control-color);
-    color: var(--text-color);
+    color: var(--control-text-color);
     border: none;
     outline: none;
     -webkit-appearance: none;
