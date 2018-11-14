@@ -11,7 +11,7 @@
     --tint-color: #e6e;
     --border-radius: 16px;
 }
-@media (prefers-dark-interface) {
+@media (prefers-color-scheme: dark) {
 	:root {
 	    --content-bg-color: #111;
 	    --alt-bg-color: #000;
