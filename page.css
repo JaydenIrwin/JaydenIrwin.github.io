@@ -32,6 +32,7 @@
 @media (prefers-color-scheme: dark) {
     .developer {
         background: url("setting_game_dark.jpg") no-repeat center center;
+        background-size: cover;
     }
 }
 .full {
