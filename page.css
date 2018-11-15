@@ -29,6 +29,11 @@
     background: url("setting_game.jpg") no-repeat center center;
     background-size: cover;
 }
+@media (prefers-color-scheme: dark) {
+    .developer {
+        background: url("setting_game_dark.jpg") no-repeat center center;
+    }
+}
 .full {
     width: 100vw;
 }
