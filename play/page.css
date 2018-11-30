@@ -79,3 +79,8 @@
     width: calc(100% - 8px);
     border-radius: var(--border-radius);
 }
+.end-banner {
+    height: 512px;
+    background: url("rct.jpg") no-repeat center center;
+    background-size: cover;
+}
