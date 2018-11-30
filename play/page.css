@@ -80,7 +80,7 @@
     border-radius: var(--border-radius);
 }
 .end-banner {
-    height: 512px;
+    height: 540px;
     background: url("rct.jpg") no-repeat center center;
     background-size: cover;
 }
