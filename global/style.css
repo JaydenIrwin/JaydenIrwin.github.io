@@ -93,6 +93,7 @@ body header nav {
 }
 .header-space {
     height: 44px;
+    padding: 0;
 }
 @supports(padding: max(0px)) {
     body header nav, body section section {
