@@ -2,6 +2,7 @@
 :root, .light-theme {
     --content-bg-color: #fff;
     --alt-bg-color: #f7f7f7;
+    --trans-alt-bg-color: #f7f7f7dd;
     --heading-text-color: #111;
     --text-color: #333;
     --inverted-text-color: #fff;
@@ -17,6 +18,7 @@
 	:root {
 	    --content-bg-color: #262626;
 	    --alt-bg-color: #1e1e1e;
+        --trans-alt-bg-color: #1e1e1edd;
 	    --heading-text-color: #fff;
 	    --text-color: #ddd;
 	    --inverted-text-color: #000;
@@ -30,6 +32,7 @@
 :root[data-theme="dark"], .dark-theme {
     --content-bg-color: #262626;
     --alt-bg-color: #1e1e1e;
+    --trans-alt-bg-color: #1e1e1edd;
     --heading-text-color: #fff;
     --text-color: #ddd;
     --inverted-text-color: #000;
@@ -78,12 +81,18 @@ body section section, body header nav, body footer section {
 
 /* Header + Footer */
 body header {
+    position: fixed;
     width: 100%;
+    background-color: var(--trans-alt-bg-color);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
 body header nav {
     display: flex !important;
     justify-content: space-between;
     padding: 0 12px;
+}
+.header-space {
+    height: 44px;
 }
 @supports(padding: max(0px)) {
     body header nav, body section section {
