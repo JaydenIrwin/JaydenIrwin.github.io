@@ -52,7 +52,7 @@
     text-decoration: none;
     min-width: 375px;
     width: calc(50vw + 128px);
-    padding: 0 calc(30vw - 164px);
+    padding: 0 calc(25vw - 128px);
     flex-shrink: 0;
 }
 .apps a:first-child {
