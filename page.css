@@ -51,16 +51,17 @@
     text-align: center;
     text-decoration: none;
     min-width: 375px;
-    width: 90vw;
+    width: 60vw;
+    padding: 0 calc(30vw - 164px);
     flex-shrink: 0;
 }
 .apps a:first-child {
     padding-left: calc(50vw - 164px);
-    width: calc(50vw + 164px);
+    width: calc(80vw + 164px);
 }
 .apps a:last-child {
     padding-right: calc(50vw - 164px);
-    width: calc(50vw + 164px);
+    width: calc(80vw + 164px);
 }
 @media (max-width: 400px) /* Fix For Small Phones */ {
     .apps a:first-child, .apps a:last-child {
