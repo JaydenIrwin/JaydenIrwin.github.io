@@ -57,11 +57,11 @@
 }
 .apps a:first-child {
     padding-left: calc(50vw - 164px);
-    width: calc(80vw + 164px);
+    width: 80vw;
 }
 .apps a:last-child {
     padding-right: calc(50vw - 164px);
-    width: calc(80vw + 164px);
+    width: 80vw;
 }
 @media (max-width: 400px) /* Fix For Small Phones */ {
     .apps a:first-child, .apps a:last-child {
