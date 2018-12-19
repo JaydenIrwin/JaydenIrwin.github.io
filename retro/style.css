@@ -58,7 +58,7 @@ body {
     background-color: var(--alt-bg-color);
     color: var(--text-color);
 }
-body section {
+body section.split section {
     background-color: var(--content-bg-color);
     width: 100%;
     padding: 32px 0;
@@ -66,7 +66,7 @@ body section {
 body section.alt-bg {
     background-color: var(--alt-bg-color);
 }
-body section section, body header nav, body footer section {
+body section section section, body header nav, body footer section {
 	width: 980px;
     background-color: initial;
     padding: 28px 12px;
