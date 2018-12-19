@@ -131,11 +131,16 @@ footer {
 .sidebar a {
     display: block;
     padding: 0 16px;
+    line-height: 32px;
     border-style: outset;
-    border-width: 2px;
+    border-width: 3px;
+    border-color: #fff6;
+}
+.sidebar a:hover {
+    text-decoration: none;
 }
 .main {
-    margin: 0;
+    padding: 0;
 }
 .banner {
     height: 540px;
