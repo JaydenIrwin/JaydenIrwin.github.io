@@ -1,12 +1,12 @@
 /* Variables */
 :root, .light-theme {
-    --content-bg-color: #fff;
+    --content-bg-color: tan;
     --alt-bg-color: #f7f7f7;
     --trans-alt-bg-color: #f7f7f7cc;
     --heading-text-color: #111;
     --text-color: #333;
     --inverted-text-color: #fff;
-    --transparent-header-color: rgba(247, 247, 247, 0.85);
+    --transparent-header-color: brown;
     --minor-text-color: #888;
     --border-color: #b3b3b3;
     --tint-color: #e6e;
@@ -116,6 +116,17 @@ footer {
 }
 
 /* General */
+.split {
+    display: flex;
+}
+.sidebar {
+    width: 256px;
+    height: 100%;
+    background-color: darkgreen;
+}
+.sidebar a {
+    display: block;
+}
 .banner {
     height: 540px;
 }
