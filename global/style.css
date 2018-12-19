@@ -84,7 +84,7 @@ body header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    background-color: var(--trans-alt-bg-color);
+    background-color: var(--transparent-header-color);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
 body header nav {

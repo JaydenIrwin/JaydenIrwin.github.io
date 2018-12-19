@@ -9,7 +9,7 @@
     --transparent-header-color: brown;
     --minor-text-color: #888;
     --border-color: #b3b3b3;
-    --tint-color: #e6e;
+    --tint-color: #fff;
     --control-color: #f7f7f7;
     --control-text-color: #000;
     --border-radius: 16px;
@@ -73,6 +73,9 @@ body section section section section, body header nav, body footer section {
 	margin: auto;
     text-align: center;
 }
+body section section section section {
+    text-align: left;
+}
 @media (max-width: 490px) /* Compact Width */ {
     body * section {
         text-align: left;
@@ -84,8 +87,7 @@ body header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    background-color: var(--trans-alt-bg-color);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    background-color: var(--transparent-header-color);
 }
 body header nav {
     display: flex !important;
@@ -121,11 +123,14 @@ footer {
 }
 .sidebar {
     width: 256px;
-    height: 100%;
+    flex-shrink: 0;
     background-color: darkgreen;
 }
 .sidebar a {
     display: block;
+}
+.main {
+    margin: 0;
 }
 .banner {
     height: 540px;
