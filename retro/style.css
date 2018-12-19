@@ -115,7 +115,7 @@ nav a:hover {
 }
 footer {
     font-size: 0.8em;
-    background-color: var(transparent-header-color);
+    background-color: var(--transparent-header-color);
 }
 
 /* General */
@@ -134,7 +134,7 @@ footer {
     line-height: 32px;
     border-style: outset;
     border-width: 3px;
-    border-color: #fff6;
+    border-color: #6666;
 }
 .sidebar a:hover {
     text-decoration: none;
