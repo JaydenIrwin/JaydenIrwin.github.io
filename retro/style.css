@@ -6,7 +6,7 @@
     --heading-text-color: #111;
     --text-color: #333;
     --inverted-text-color: #fff;
-    --transparent-header-color: brown;
+    --transparent-header-color: rgb(165, 97, 43);
     --minor-text-color: #888;
     --border-color: #b3b3b3;
     --tint-color: #fff;
@@ -115,6 +115,7 @@ nav a:hover {
 }
 footer {
     font-size: 0.8em;
+    background-color: var(transparent-header-color);
 }
 
 /* General */
@@ -125,9 +126,13 @@ footer {
     width: 256px;
     flex-shrink: 0;
     background-color: darkgreen;
+    padding: 0;
 }
 .sidebar a {
     display: block;
+    padding: 0 16px;
+    border-style: outset;
+    border-width: 2px;
 }
 .main {
     margin: 0;
