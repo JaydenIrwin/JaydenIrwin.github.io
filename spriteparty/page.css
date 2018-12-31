@@ -2,8 +2,9 @@ h1 {
     font-size: 80px;
 }
 .banner {
-    background: url("banner.jpg") no-repeat center center;
+    background: url("banner.png") no-repeat center center;
     background-size: cover;
+    image-rendering: pixelated;
 }
 .full {
     width: 100vw;
