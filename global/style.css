@@ -95,6 +95,7 @@ body header nav {
 .header-space {
     height: 44px;
     padding: 0;
+    background-color: var(--alt-bg-color);
 }
 @supports(padding: max(0px)) {
     body header nav, body section section {

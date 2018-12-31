@@ -87,6 +87,10 @@
 #shot-sp {
     background-image: url(shot_sp.jpg);
 }
+#shot-sparty {
+    background-image: url(shot_sparty.jpg);
+    transform: rotate(-90deg);
+}
 .features {
     display: flex;
     justify-content: center;
