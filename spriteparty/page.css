@@ -2,9 +2,7 @@ h1 {
     font-size: 80px;
 }
 .banner {
-    background: url("banner.png") no-repeat center center;
-    background-size: cover;
-    image-rendering: pixelated;
+    background: radial-gradient(orange, #666);
     padding: 0;
 }
 .chapter-nav {
@@ -20,6 +18,7 @@ h1 {
 }
 .chapter-nav a:hover {
     color: var(--tint-color);
+    text-decoration: none;
 }
 .chapter-nav a.selected {
 	text-shadow: initial;
