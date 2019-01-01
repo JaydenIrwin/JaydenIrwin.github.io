@@ -39,12 +39,7 @@ h1 {
     width: 100vw;
 }
 .feature {
-    background: linear-gradient(#f9f9f9, var(--content-bg-color));
-}
-@media (prefers-color-scheme: dark) {
-    .feature {
-        background: linear-gradient(#222, var(--content-bg-color));
-    }
+    background: linear-gradient(var(--alt-bg-color), var(--content-bg-color));
 }
 .feature section {
     display: flex;
