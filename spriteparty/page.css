@@ -11,10 +11,14 @@ h1 {
     background-color: #fff8;
     -webkit-backdrop-filter: blur(10px);
 }
+.chapter-nav section {
+    padding: 12px;
+}
 .chapter-nav figure {
     width: 100px;
 }
 .chapter-nav img {
+    image-rendering: initial;
     border-radius: 13px;
 }
 .chapter-nav figcaption {
