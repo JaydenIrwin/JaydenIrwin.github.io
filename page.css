@@ -74,6 +74,9 @@
     background-repeat: no-repeat;
     background-size: 87%;
 }
+.apps a.landscape img {
+    background-size: 94%;
+}
 .apps a h3 {
     padding-bottom: 0;
     margin-bottom: 0;
@@ -89,7 +92,6 @@
 }
 #shot-sparty {
     background-image: url(shot_sparty.jpg);
-    transform: rotate(-90deg);
 }
 .features {
     display: flex;
