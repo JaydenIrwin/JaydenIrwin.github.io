@@ -14,6 +14,13 @@ h1 {
 .chapter-nav section {
     padding: 12px;
 }
+.chapter-nav a {
+	color: white;
+	text-shadow: 0 0 16px #000a;
+}
+.chapter-nav a.selected {
+	text-shadow: initial;
+}
 .chapter-nav figure {
     width: 100px;
 }
