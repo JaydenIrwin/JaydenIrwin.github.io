@@ -195,7 +195,7 @@ a.button.disabled {
     cursor: not-allowed;
 }
 figure {
-    display: table;
+    display: inline-table;
 	margin: 0;
 }
 figcaption {
