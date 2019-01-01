@@ -2,8 +2,9 @@ h1 {
     font-size: 80px;
 }
 .banner {
-    background: radial-gradient(orange, #666);
+    background: radial-gradient(orange, darkorange);
     padding: 0;
+    height: 800px;
 }
 .chapter-nav {
     background-color: #fff8;
@@ -19,6 +20,7 @@ h1 {
 .chapter-nav a:hover {
     color: var(--tint-color);
     text-decoration: none;
+    text-shadow: none;
 }
 .chapter-nav a.selected {
 	text-shadow: initial;
