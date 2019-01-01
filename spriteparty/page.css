@@ -49,6 +49,7 @@ h1 {
     padding: 12px;
     justify-content: center;
     scroll-snap-type: mandatory;
+    transform: rotate(-90deg);
 }
 .apps div {
     scroll-snap-align: center none;
