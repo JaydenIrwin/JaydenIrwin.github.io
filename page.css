@@ -63,6 +63,10 @@
     padding-right: calc(50vw - 164px);
     width: calc(75vw + 64px);
 }
+.apps a:hover h3 {
+    color: var(--heading-text-color);
+    text-decoration: underline;
+}
 @media (max-width: 400px) /* Fix For Small Phones */ {
     .apps a:first-child, .apps a:last-child {
         padding-left: initial;
@@ -80,6 +84,10 @@
 .apps a h3 {
     padding-bottom: 0;
     margin-bottom: 0;
+    font-size: 1.4em;
+}
+.apps a p {
+	font-size: 1.1em;
 }
 #shot-lp {
     background-image: url(shot_lp.jpg);
