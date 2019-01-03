@@ -58,13 +58,13 @@
     margin: 0;
     width: calc(50vw + 128px);
     padding-left: calc(50vw - 164px);
-    padding-right: 0 calc(25vw - 100px);
+    padding-right: calc(25vw - 100px);
     width: calc(75vw + 64px);
 }
 .apps a:last-child {
     margin: 0;
     width: calc(50vw + 128px);
-    padding-left: 0 calc(25vw - 100px);
+    padding-left: calc(25vw - 100px);
     padding-right: calc(50vw - 164px);
     width: calc(75vw + 64px);
 }
