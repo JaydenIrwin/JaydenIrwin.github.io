@@ -51,15 +51,20 @@
     text-align: center;
     text-decoration: none;
     min-width: 375px;
-    width: calc(50vw + 128px);
-    padding: 0 calc(25vw - 100px);
+    margin: 0 calc(25vw - 100px);
     flex-shrink: 0;
 }
 .apps a:first-child {
+    margin: 0;
+    width: calc(50vw + 128px);
     padding-left: calc(50vw - 164px);
+    padding-right: 0 calc(25vw - 100px);
     width: calc(75vw + 64px);
 }
 .apps a:last-child {
+    margin: 0;
+    width: calc(50vw + 128px);
+    padding-left: 0 calc(25vw - 100px);
     padding-right: calc(50vw - 164px);
     width: calc(75vw + 64px);
 }
@@ -74,6 +79,7 @@
     }
 }
 .apps a img {
+    margin: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 87%;
