@@ -56,13 +56,13 @@
 }
 .apps a:first-child {
     margin: 0;
-    padding-left: calc(50vw - 164px);
+    padding-left: calc(50vw - 180px);
     padding-right: calc(25vw - 100px);
 }
 .apps a:last-child {
     margin: 0;
     padding-left: calc(25vw - 100px);
-    padding-right: calc(50vw - 164px);
+    padding-right: calc(50vw - 180px);
 }
 .apps a:hover h3 {
     color: var(--heading-text-color);
