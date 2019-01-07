@@ -23,7 +23,7 @@ h1 {
     text-shadow: none;
 }
 .chapter-nav a.selected {
-    color: var(--inverted-text-color);
+    color: var(--inverted-text-color) !important;
 	text-shadow: initial;
 }
 .chapter-nav figure {
