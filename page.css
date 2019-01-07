@@ -55,8 +55,8 @@
     flex-shrink: 0;
 }
 .apps a:first-child {
-    margin-right: 0;
-    padding-right: calc(25vw - 110px);
+    margin-left: 0;
+    padding-left: calc(50vw - 180px);
 }
 .apps a:last-child {
     margin-right: 0;
