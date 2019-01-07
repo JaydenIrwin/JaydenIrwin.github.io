@@ -14,7 +14,7 @@ h1 {
     padding: 12px;
 }
 .chapter-nav a {
-	color: var(--inverted-text-color);
+	color: #fff;
 	text-shadow: 0 0 32px #000a;
 }
 .chapter-nav a:hover {
@@ -23,6 +23,7 @@ h1 {
     text-shadow: none;
 }
 .chapter-nav a.selected {
+    color: var(--inverted-text-color);
 	text-shadow: initial;
 }
 .chapter-nav figure {
