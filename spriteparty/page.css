@@ -7,7 +7,7 @@ h1 {
     height: initial;
 }
 .chapter-nav {
-    background-color: #fff8;
+    background-color: var(--chapter-nav-bg-color);
     -webkit-backdrop-filter: blur(10px);
 }
 .chapter-nav section {

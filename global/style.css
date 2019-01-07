@@ -7,6 +7,7 @@
     --text-color: #333;
     --inverted-text-color: #fff;
     --transparent-header-color: rgba(247, 247, 247, 0.85);
+    --chapter-nav-bg-color: #fff8;
     --minor-text-color: #888;
     --border-color: #b3b3b3;
     --tint-color: #e6e;
@@ -23,6 +24,7 @@
 	    --text-color: #ddd;
 	    --inverted-text-color: #000;
 	    --transparent-header-color: rgba(30, 30, 30, 0.85);
+        --chapter-nav-bg-color: #26262688;
 	    --minor-text-color: #888;
         --control-color: #fff4;
         --control-text-color: #fff;
@@ -37,6 +39,7 @@
     --text-color: #ddd;
     --inverted-text-color: #000;
     --transparent-header-color: rgba(30, 30, 30, 0.85);
+    --chapter-nav-bg-color: #26262688;
     --minor-text-color: #888;
     --control-color: #fff4;
     --control-text-color: #fff;
