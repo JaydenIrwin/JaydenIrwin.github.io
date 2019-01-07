@@ -33,7 +33,12 @@ h1 {
     border-radius: 13px;
 }
 .chapter-nav figcaption {
-    font-size: 13px;
+    font-size: 12px;
+}
+.chapter-nav figcaption span {
+    display: block;
+    color: #f46c0e;
+    font-size: 10px;
 }
 .full {
     width: 100vw;
