@@ -3,11 +3,10 @@ h1 {
 }
 @supports (-webkit-background-clip: text) {
     #title {
+        background: linear-gradient(#f80 0%, #f80 49.9%, #fff 50.1%, #fff 100%);
+        background-attachment: fixed;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
-        background: linear-gradient(#fff, #f80);
-        background-position: fixed;
-        background-size: 100%;
     }
 }
 .banner {
