@@ -1,6 +1,15 @@
 h1 {
     font-size: 80px;
 }
+@supports (-webkit-background-clip: text) {
+    #title {
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        background: linear-gradient(#fff, #f80);
+        background-position: fixed;
+        background-size: 100%;
+    }
+}
 .banner {
     background: radial-gradient(#fb0, #f70);
     padding: 0;
