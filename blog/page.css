@@ -11,6 +11,8 @@ article * {
 }
 article .date {
     text-transform: uppercase;
+    font-weight: 900;
+    color: var(--minor-text-color);
 }
 .links a {
     margin: 8px 16px;
