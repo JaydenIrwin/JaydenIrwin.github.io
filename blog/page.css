@@ -1,7 +1,5 @@
 .banner {
     background: radial-gradient(#fb0, #f70);
-    padding: 0;
-    height: initial;
 }
 .full {
     width: 100vw;
