@@ -1,0 +1,122 @@
+h1 {
+    font-size: 80px;
+}
+@supports (-webkit-background-clip: text) {
+    #title {
+        background: linear-gradient(#f80 0%, #f80 49.9%, #fff 50.1%, #fff 100%);
+        background-attachment: fixed;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
+.banner {
+    background: radial-gradient(#fb0, #f70);
+    padding: 0;
+    height: initial;
+}
+.chapter-nav {
+    background-color: var(--chapter-nav-bg-color);
+    -webkit-backdrop-filter: blur(10px);
+}
+.chapter-nav section {
+    padding: 12px;
+}
+.chapter-nav a {
+	color: #fff;
+	text-shadow: 0 0 32px #000a;
+}
+.chapter-nav a:hover {
+    color: var(--tint-color);
+    text-decoration: none;
+    text-shadow: none;
+}
+.chapter-nav a.selected {
+    color: var(--inverted-text-color) !important;
+	text-shadow: initial;
+}
+.chapter-nav figure {
+    width: 100px;
+}
+.chapter-nav img {
+    image-rendering: initial;
+    border-radius: 13px;
+}
+.chapter-nav figcaption {
+    font-size: 12px;
+}
+.chapter-nav figcaption span {
+    display: block;
+    color: #f46c0e;
+    font-size: 10px;
+}
+.full {
+    width: 100vw;
+}
+.feature {
+    background: linear-gradient(var(--alt-bg-color), var(--content-bg-color));
+}
+.feature section {
+    display: flex;
+    align-items: center;
+}
+.feature section h1 {
+    font-size: 56px;
+    text-align: left;
+    width: 400px;
+}
+@media (max-width: 490px) /* Compact Width */ {
+    h1 {
+        font-size: 56px;
+    }
+    .feature section {
+        flex-direction: column;
+    }
+    .feature section h1 {
+        font-size: 48px;
+        text-align: center;
+        width: initial;
+    }
+}
+.apps {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    scroll-snap-type: mandatory;
+}
+.apps div {
+    scroll-snap-align: center none;
+    text-align: center;
+    text-decoration: none;
+}
+.apps div img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 87%;
+}
+.apps div.landscape img {
+    background-size: 94%;
+}
+.apps div h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#shot1 {
+    background-image: url(shot1.jpg);
+}
+#shot2 {
+    background-image: url(shot2.jpg);
+}
+#shot3 {
+    background-image: url(shot3.jpg);
+}
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.links a {
+    margin: 8px 16px;
+}
+.router {
+    background-color: #0fa;
+}
