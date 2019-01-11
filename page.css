@@ -9,11 +9,12 @@
     }
 }
 .intro img {
-    width: 200px;
-    height: 200px;
-    margin: 4px;
-    margin-bottom: 16px;
+    width: 128px;
+    height: 128px;
     border-radius: 1000px;
+}
+.intro h1 {
+    font-size: 52px;
 }
 .color-bg footer {
     position: absolute;
