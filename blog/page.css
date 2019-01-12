@@ -29,6 +29,8 @@ article p {
         padding: 16px;
         margin: 16px -12px;
         border-radius: 0;
+        max-width: initial;
+        border-left: 4px solid var(--border-color);
     }
     pre code, span.code-variable {
         font-size: 14px !important;
