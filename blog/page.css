@@ -23,6 +23,9 @@ span.code-variable {
 	background-color: #08f;
 	padding: 1px 10px;
 	border-radius: 100px;
+	font-family: "Menlo", -apple-system, "San Fransisco", "Helvetica Neue", "Helvetica";
+	font-size: 1rem;
+	line-height: 1.1;
 }
 span#orange {
 	background-color: #f80;
