@@ -26,7 +26,9 @@ article p {
     	font-size: 1em;
     }
     pre {
-        padding: 1rem;
+        padding: 16px;
+        margin: 16px -12px;
+        border-radius: 0;
     }
     pre code, span.code-variable {
         font-size: 14px !important;
