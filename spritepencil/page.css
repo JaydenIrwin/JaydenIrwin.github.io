@@ -70,4 +70,5 @@ h1 {
 }
 .links a {
     margin: 8px 16px;
+    display: inline-block;
 }
