@@ -25,6 +25,13 @@ article p {
     article p {
     	font-size: 1em;
     }
+    pre code {
+        padding: 1rem;
+    }
+    pre code, span.code-variable {
+        padding: 1rem;
+        font-size: 14px !important;
+    }
 }
 span.code-variable {
 	color: #fff;
