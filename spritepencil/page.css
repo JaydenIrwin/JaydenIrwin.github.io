@@ -1,6 +1,14 @@
 h1 {
     font-size: 80px;
 }
+@supports (-webkit-background-clip: text) {
+    #title {
+        background: linear-gradient(#00D5B8 0%, #00D5B8 49.9%, #fff 50.1%, #fff 100%);
+        background-attachment: fixed;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
 .banner {
     background: url("banner.png") no-repeat center center;
     background-size: cover;
