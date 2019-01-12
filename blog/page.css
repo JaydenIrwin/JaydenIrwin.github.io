@@ -1,7 +1,7 @@
 .banner {
     background: url("banner_color_scroll.png"), radial-gradient(#fb0, #f70);
     background-size: contain;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-position: center;
 }
 .full {
