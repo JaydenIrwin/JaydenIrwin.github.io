@@ -33,16 +33,14 @@
 					<p>This cool trick allows you to change the text color of any element when it is scrolled past a certain point or create gradient text that fades the gradient as you scroll. No laggy JS calculations needed!</p>
                     <p>The example below will change the text color from <span class="code-variable">Color 1</span> to <span class="code-variable" id="orange">Color 2</span> when the user scrolls the element up into the top 50% of the display.</p>
                     <pre>
-                        <code>
-@supports (-webkit-background-clip: text) {
+<code>@supports (-webkit-background-clip: text) {
     #title {
         background: linear-gradient(<span class="code-variable">Color 1</span> 0%, <span class="code-variable">Color 1</span> 49.9%, <span class="code-variable" id="orange">Color 2</span> 50.1%, <span class="code-variable" id="orange">Color 2</span> 100%);
         background-attachment: fixed;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
-}
-                        </code>
+}</code>
                     </pre>
                     <p>Most browsers support these Webkit properties, but fallback is still graceful due to the <code>@supports</code> query. Note: iOS Safari is supposed to support this code, but possibly due a bug it doesn't work. However the text will still show up on iOS.</p>
                     <p>Check it out in action on the <a href="/spriteparty/">Sprite Party page.</a></p>
