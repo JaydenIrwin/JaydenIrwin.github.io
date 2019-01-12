@@ -1,5 +1,6 @@
 .banner {
-    background: radial-gradient(#fb0, #f70);
+    background: radial-gradient(#fb0, #f70), url("banner_color_scroll.png");
+    background-size: contain;
 }
 .full {
     width: 100vw;
