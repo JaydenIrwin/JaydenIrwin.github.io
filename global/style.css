@@ -253,12 +253,11 @@ summary::-webkit-details-marker {
 }
 pre {
     background-color: var(--alt-bg-color);
-    padding: 3rem;
+    padding: 2rem;
     overflow-x: scroll;
     margin: 8px;
     text-align: left;
     border-radius: var(--border-radius);
-    border: 1px solid var(--border-color);
 }
 code {
     font-family: "Menlo", -apple-system, "San Fransisco", "Helvetica Neue", "Helvetica";
