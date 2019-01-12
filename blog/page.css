@@ -25,11 +25,10 @@ article p {
     article p {
     	font-size: 1em;
     }
-    pre code {
+    pre {
         padding: 1rem;
     }
     pre code, span.code-variable {
-        padding: 1rem;
         font-size: 14px !important;
     }
 }
