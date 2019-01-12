@@ -31,7 +31,7 @@
 					<h1>CSS Change Text Color On Scroll</h1>
                     <h3 class="date">January 20, 2019</h3>
 					<p>This cool trick allows you to change the text color of any element when it is scrolled past a certain point or create gradient text that fades the gradient as you scroll. No laggy JS calculations needed!</p>
-                    <p>The example below will change the text color from <span class="code-variable">Color 1</span> to <span class="code-variable" id="orange">Color 2</span> when the user scrolls the element up into the top 50% of the display.</p>
+                    <p>The example below will change the text color from <span class="code-variable">Color 1</span> to <span class="code-variable" id="orange">Color 2</span> when the user scrolls the element up into the top 50% of the display. Remove the 2 middle stops in the gradient to create a smooth gradient color fade as you scroll.</p>
 <pre><code>@supports (-webkit-background-clip: text) {
     #title {
         background: linear-gradient(<span class="code-variable">Color 1</span> 0%, <span class="code-variable">Color 1</span> 49.9%, <span class="code-variable" id="orange">Color 2</span> 50.1%, <span class="code-variable" id="orange">Color 2</span> 100%);
@@ -41,7 +41,7 @@
     }
 }</code></pre>
                     <p>Most browsers support these Webkit properties, but fallback is still graceful due to the <code>@supports</code> query. Note: iOS Safari is supposed to support this code, but possibly due a bug it doesn't work. However the text will still show up on iOS.</p>
-                    <p>Check it out in action on the <a href="/spriteparty/">Sprite Party page.</a></p>
+                    <p>Check it out in action on the <a href="/spriteparty/">Sprite Party page.</a> And check back for more posts coming in the near future!</p>
 				</section>
 	        </section>
 	    </article>
