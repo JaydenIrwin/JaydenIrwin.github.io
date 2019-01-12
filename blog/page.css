@@ -21,6 +21,11 @@ article .date {
 article p {
 	margin: 8px 0;
 }
+@media (max-width: 490px) /* Compact Width */ {
+    article p {
+    	font-size: 1em;
+    }
+}
 span.code-variable {
 	color: #fff;
 	background-color: #08f;
