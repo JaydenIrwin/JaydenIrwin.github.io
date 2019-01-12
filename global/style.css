@@ -261,6 +261,15 @@ pre {
 }
 code {
     font-family: "Menlo", -apple-system, "San Fransisco", "Helvetica Neue", "Helvetica";
+    background-color: var(--alt-bg-color);
+    padding: 4px 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+pre code {
+    background-color: initial;
+    padding: initial;
+    font-size: initial;
 }
 .flex {
     display: inline-flex;
