@@ -7,10 +7,16 @@
 article * {
 	text-align: left;
 }
+article h1 {
+	margin-bottom: 0;
+}
 article .date {
     text-transform: uppercase;
     font-weight: 900;
     color: var(--minor-text-color);
+}
+article p {
+	margin: 8px 0;
 }
 .links a {
     margin: 8px 16px;

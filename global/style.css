@@ -255,7 +255,7 @@ pre {
     background-color: var(--alt-bg-color);
     padding: 2rem;
     overflow-x: scroll;
-    margin: 8px;
+    margin: 16px 4px;
     text-align: left;
     border-radius: var(--border-radius);
 }
