@@ -40,6 +40,7 @@ span.code-variable {
 	font-family: "Menlo", -apple-system, "San Fransisco", "Helvetica Neue", "Helvetica";
 	font-size: 1rem;
 	line-height: 1.1;
+    white-space: pre-line;
 }
 span#orange {
 	background-color: #f80;
