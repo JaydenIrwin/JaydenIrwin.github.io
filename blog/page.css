@@ -18,6 +18,15 @@ article .date {
 article p {
 	margin: 8px 0;
 }
+span.code-variable {
+	color: #fff;
+	background-color: #08f;
+	padding: 1px 10px;
+	border-radius: 100px;
+}
+span#orange {
+	background-color: #f80;
+}
 .links a {
     margin: 8px 16px;
 }
