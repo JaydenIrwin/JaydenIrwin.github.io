@@ -5,7 +5,7 @@
 }
 @media (prefers-color-scheme: dark) {
     .banner {
-        background: linear-gradient(#bc45bf, #693fca);
+        background: linear-gradient(22deg, #bc45bf, #693fca);
     }
 }
 .intro img {
