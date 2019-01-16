@@ -4,9 +4,9 @@ function preloader() {
 		var img2 = new Image();
 		var img3 = new Image();
 		var darkText = window.matchMedia("(prefers-color-scheme: dark)").matches ? "_dark" : "";
-		img1.src = "setting_game"+darkText+".jpg";
-		img2.src = "setting_yard"+darkText+".jpg";
-		img3.src = "setting_gym"+darkText+".jpg";
+		img1.src = "backdrop_game"+darkText+".jpg";
+		img2.src = "backdrop_yard"+darkText+".jpg";
+		img3.src = "backdrop_gym"+darkText+".jpg";
 	}
 }
 function addLoadEvent(func) {
@@ -29,11 +29,11 @@ function devBG() {
 	var appsWidth = document.getElementById("apps").scrollWidth;
 	var darkText = window.matchMedia("(prefers-color-scheme: dark)").matches ? "_dark" : "";
     if (document.getElementById("apps").scrollLeft < 0.135 * appsWidth) {
-        document.getElementById("developer").style.background = 'url("setting_game'+darkText+'.jpg") no-repeat center center';
+        document.getElementById("developer").style.background = 'url("backdrop_game'+darkText+'.jpg") no-repeat center center';
     } else if (document.getElementById("apps").scrollLeft < 0.405 * appsWidth) {
-        document.getElementById("developer").style.background = 'url("setting_yard'+darkText+'.jpg") no-repeat center center';
+        document.getElementById("developer").style.background = 'url("backdrop_yard'+darkText+'.jpg") no-repeat center center';
     } else {
-    	document.getElementById("developer").style.background = 'url("setting_gym'+darkText+'.jpg") no-repeat center center';
+    	document.getElementById("developer").style.background = 'url("backdrop_gym'+darkText+'.jpg") no-repeat center center';
     }
     document.getElementById("developer").style.backgroundSize = "cover";
 }
