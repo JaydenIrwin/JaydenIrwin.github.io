@@ -1,11 +1,12 @@
 .banner {
-    background: linear-gradient(22deg, #f6f, #77f);
+    background: url("apps_tiled.png"), linear-gradient(22deg, #f6f, #77f);
+    background-size: 512px, 100%;
     display: flex;
     align-items: center;
 }
 @media (prefers-color-scheme: dark) {
     .banner {
-        background: linear-gradient(22deg, #bc45bf, #693fca);
+        background: url("apps_tiled.png"), linear-gradient(22deg, #bc45bf, #693fca);
     }
 }
 .intro img {
