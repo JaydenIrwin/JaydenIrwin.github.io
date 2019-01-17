@@ -5,7 +5,7 @@
     background-position: center;
 }
 .banner.spencil-two {
-    background: url("banner_spencil_two.png"), radial-gradient(#0f8, #0a8);
+    background: url("banner_spencil_two.png"), radial-gradient(#0fc, #0a8);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom center;
