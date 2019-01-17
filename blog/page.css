@@ -1,8 +1,14 @@
 .banner.text-color-scroll {
-    background: url("banner_color_scroll.png"), radial-gradient(#fb0, #f70);
+    background: url("banner_color_scroll.png"), linear-gradient(22deg, #fb0, #f70);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+.banner.spencil-two {
+    background: url("banner_spencil_two.png"), radial-gradient(#00d5b8, #0b9);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
 article section section {
 	text-align: left;
