@@ -24,6 +24,10 @@ article .date {
 article p {
 	margin: 8px 0;
 }
+article img {
+    border-radius: 8px;
+    max-width: calc(100% - 8px);
+}
 @media (max-width: 490px) /* Compact Width */ {
     article p {
     	font-size: 1em;
