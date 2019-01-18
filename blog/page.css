@@ -23,6 +23,7 @@ article .date {
     color: var(--minor-text-color);
 }
 article p {
+    font-size: 1.3em;
 	margin: 8px 0;
 }
 article img {
