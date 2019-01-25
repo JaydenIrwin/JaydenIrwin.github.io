@@ -12,7 +12,6 @@ h1 {
 .banner {
     background: url("banner.png") no-repeat center center;
     background-size: cover;
-    image-rendering: pixelated;
 }
 .full {
     width: 100vw;
@@ -67,9 +66,6 @@ h1 {
 }
 #shot2 {
     background-image: url(shot2.jpg);
-}
-#shot3 {
-    background-image: url(shot3.jpg);
 }
 .features {
     display: flex;
