@@ -122,6 +122,7 @@ footer {
 /* General */
 .banner {
     height: 540px;
+    padding: 0;
 }
 a.button, img, figcaption, input, textarea {
     margin: 4px;
