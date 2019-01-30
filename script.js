@@ -30,7 +30,9 @@ function devBG() {
 	var darkText = window.matchMedia("(prefers-color-scheme: dark)").matches ? "_dark" : "";
     if (document.getElementById("apps").scrollLeft < 0.135 * appsWidth) {
         document.getElementById("developer").style.background = 'url("backdrop_game'+darkText+'.jpg") no-repeat center center';
-    } else if (document.getElementById("apps").scrollLeft < 0.405 * appsWidth) {
+    } else if (document.getElementById("apps").scrollLeft < 0.3 * appsWidth) {
+    	document.getElementById("developer").style.background = 'url("backdrop_gym'+darkText+'.jpg") no-repeat center center';
+    } else if (document.getElementById("apps").scrollLeft < 0.6 * appsWidth) {
         document.getElementById("developer").style.background = 'url("backdrop_yard'+darkText+'.jpg") no-repeat center center';
     } else {
     	document.getElementById("developer").style.background = 'url("backdrop_gym'+darkText+'.jpg") no-repeat center center';
