@@ -80,15 +80,18 @@
 .apps a p {
 	font-size: 1.1em;
 }
-#shot-lp {
-    background-image: url(shot_lp.jpg);
+#shot-spencil {
+    background-image: url(shot_spencil.jpg);
+}
+#shot-pushups {
+    background-image: url(shot_pushups.jpg);
+}
+#shot-sparty {
+    background-image: url(shot_sparty.jpg);
 }
 #shot-fa {
     background-image: url(shot_fa.jpg);
 }
-#shot-spencil {
-    background-image: url(shot_spencil.jpg);
-}
-#shot-sparty {
-    background-image: url(shot_sparty.jpg);
+#shot-lp {
+    background-image: url(shot_lp.jpg);
 }
