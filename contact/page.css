@@ -2,3 +2,7 @@
     background: url("banner.png") no-repeat center center #08f;
     background-size: contain;
 }
+.faq {
+	width: 800px;
+	text-align: left;
+}
