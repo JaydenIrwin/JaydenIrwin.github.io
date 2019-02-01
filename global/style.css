@@ -218,7 +218,7 @@ figcaption {
     color: #fff;
     text-shadow: 0 0 32px #000a;
 }
-.chapter-nav a:hover {
+.chapter-nav a:not(.disabled):hover {
     color: var(--tint-color);
     text-decoration: none;
     text-shadow: none;
@@ -228,7 +228,7 @@ figcaption {
     text-shadow: initial;
 }
 .chapter-nav figure {
-    width: 100px;
+    width: 80px;
 }
 .chapter-nav img {
     image-rendering: initial;
