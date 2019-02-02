@@ -10,6 +10,12 @@
     background-repeat: no-repeat;
     background-position: bottom center;
 }
+.banner.pushups-preorder {
+    background: url("banner_pushups_preorder.png"), #F9E14B;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
 article section section {
     width: 800px;
 	text-align: left;
