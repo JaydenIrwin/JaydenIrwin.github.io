@@ -40,15 +40,17 @@
     scroll-snap-align: center;
     text-align: center;
     text-decoration: none;
-    min-width: 375px;
-    margin: 0 calc(25vw - 110px);
+    min-width: 350px;
+    margin: 0 calc(25vw - 105px);
     flex-shrink: 0;
 }
 .apps a:first-child {
+    min-width: calc(350px + 50vw - 180px);
     margin-left: 0;
     padding-left: calc(50vw - 180px);
 }
 .apps a:last-child {
+    min-width: calc(350px + 50vw - 180px);
     margin-right: 0;
     padding-right: calc(50vw - 180px);
 }
