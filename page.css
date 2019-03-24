@@ -45,14 +45,14 @@
     flex-shrink: 0;
 }
 .apps a:first-child {
-    min-width: calc(350px + 50vw - 180px);
+    min-width: calc(350px + 50vw - 170px);
     margin-left: 0;
-    padding-left: calc(50vw - 180px);
+    padding-left: calc(50vw - 170px);
 }
 .apps a:last-child {
-    min-width: calc(350px + 50vw - 180px);
+    min-width: calc(350px + 50vw - 170px);
     margin-right: 0;
-    padding-right: calc(50vw - 180px);
+    padding-right: calc(50vw - 170px);
 }
 .apps a:hover h3 {
     color: var(--heading-text-color);
