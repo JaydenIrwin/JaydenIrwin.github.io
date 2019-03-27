@@ -218,6 +218,7 @@ figcaption {
 .chapter-nav a {
     color: #fff;
     text-shadow: 0 0 32px #000a;
+    text-decoration: none;
 }
 .chapter-nav a:not(.disabled):hover {
     color: var(--tint-color);
