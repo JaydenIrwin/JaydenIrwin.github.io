@@ -222,7 +222,6 @@ figcaption {
 }
 .chapter-nav a:not(.disabled):hover {
     color: var(--tint-color);
-    text-decoration: none;
     text-shadow: none;
 }
 .chapter-nav a.selected {
