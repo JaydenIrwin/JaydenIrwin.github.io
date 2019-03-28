@@ -9,8 +9,8 @@
         <meta name="theme-color" content="#fff">
         <meta name="og:image" content="/global/opengraph.png">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="keywords" content="jayden irwin, LEGO, star wars, contract, developer, web, ontario, iOS, swift">
-        <meta name="description" content="iOS developer and student based in Ontario.">
+        <meta name="keywords" content="jayden irwin, LEGO, star wars, contract, developer, ontario, iOS, swift">
+        <meta name="description" content="iOS developer and student from Ontario, Canada. Creator of Sprite Pencil for iOS. LEGO MOC maker with downloadable instructions.">
     </head>
     <body ontouchstart>
         <header>
