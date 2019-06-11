@@ -32,7 +32,7 @@ h1 {
     h1 {
         font-size: 56px;
     }
-    .feature section {
+    .feature section, .router>section>div {
         flex-direction: column;
     }
     .feature section h1 {
@@ -65,10 +65,10 @@ h1 {
     margin-bottom: 0;
 }
 #shot1 {
-    background-image: url(shot1.jpg);
+    background-image: url(shot1.png);
 }
 #shot2 {
-    background-image: url(shot2.jpg);
+    background-image: url(shot2.png);
 }
 #shot3 {
     background-image: url(shot3.jpg);
@@ -82,5 +82,11 @@ h1 {
     margin: 8px 16px;
 }
 .router {
-    background-color: #0fa;
+    background-color: #00D5B8;
+}
+.router>section>div {
+    display: flex;
+}
+.router:hover h2, .router:hover h3 {
+    color: var(--heading-text-color);
 }

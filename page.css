@@ -34,6 +34,7 @@
     padding: 12px 0;
     padding-bottom: 64px;
     overflow-x: scroll;
+    align-items: center;
     scroll-snap-type: mandatory;
     -webkit-overflow-scrolling: touch;
 }
@@ -90,10 +91,13 @@
     background-image: url(shot_pushups.jpg);
 }
 #shot-sparty {
-    background-image: url(shot_sparty.jpg);
+    background-image: url(shot_sparty.png);
 }
 #shot-fa {
     background-image: url(shot_fa.jpg);
+}
+#shot-nix-qc {
+    background-image: url(shot_nix_qc.jpg);
 }
 #shot-lp {
     background-image: url(shot_lp.jpg);

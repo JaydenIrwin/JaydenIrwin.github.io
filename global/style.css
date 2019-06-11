@@ -1,4 +1,7 @@
 /* Variables */
+:root {
+	color-scheme: light dark;
+}
 :root, .light-theme {
     --content-bg-color: #fff;
     --alt-bg-color: #f7f7f7;
