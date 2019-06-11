@@ -84,12 +84,14 @@ h1 {
 .router {
     background-color: #00D5B8;
 }
-.router>section>div {
-    display: flex;
-}
 .router, .router>section {
     padding-top: 0;
     padding-bottom: 0;
+}
+.router>section>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .router>section img {
     margin: 0;
