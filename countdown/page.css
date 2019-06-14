@@ -1,0 +1,78 @@
+h1 {
+    font-size: 80px;
+}
+@supports (-webkit-background-clip: text) {
+    #title {
+        background: linear-gradient(#F9E14B 0%, #F9E14B 49.9%, var(--heading-text-color) 50.1%, var(--heading-text-color) 100%);
+        background-attachment: fixed;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
+.banner {
+    background: url("banner.png") no-repeat center center;
+    background-size: cover;
+}
+.full {
+    width: 100vw;
+}
+.feature {
+    background: linear-gradient(var(--alt-bg-color), var(--content-bg-color));
+}
+.feature section {
+    display: flex;
+    align-items: center;
+}
+.feature section h1 {
+    font-size: 56px;
+    text-align: left;
+    width: 400px;
+}
+@media (max-width: 490px) /* Compact Width */ {
+    h1 {
+        font-size: 56px;
+    }
+    .feature section {
+        flex-direction: column;
+    }
+    .feature section h1 {
+        font-size: 48px;
+        text-align: center;
+        width: initial;
+    }
+}
+.apps {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    scroll-snap-type: mandatory;
+}
+.apps div {
+    scroll-snap-align: center none;
+    text-align: center;
+    text-decoration: none;
+}
+.apps div img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 87%;
+}
+.apps div h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#shot1 {
+    background-image: url(shot1.jpg);
+}
+#shot2 {
+    background-image: url(shot2.jpg);
+}
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.links a {
+    margin: 8px 16px;
+    display: inline-block;
+}
