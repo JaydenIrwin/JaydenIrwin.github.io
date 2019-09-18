@@ -10,7 +10,7 @@ h1 {
     }
 }
 .banner {
-    background: radial-gradient(#ffde00, #ff9800);
+    background: radial-gradient(#ffee00, #ffbb00);
     height: initial;
 }
 .full {
@@ -82,7 +82,7 @@ h1 {
     margin: 8px 16px;
 }
 .router {
-    background: linear-gradient(#FDDE00, #FEB8C8);
+    background: linear-gradient(45deg, #FDDE00, #FEB8C8);
 }
 .router, .router>section {
     padding-top: 0;
