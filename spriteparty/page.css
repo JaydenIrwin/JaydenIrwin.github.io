@@ -82,7 +82,7 @@ h1 {
     margin: 8px 16px;
 }
 .router {
-    background-color: #00D5B8;
+    background: linear-gradient(#FDDE00, #FEB8C8);
 }
 .router, .router>section {
     padding-top: 0;
@@ -96,6 +96,7 @@ h1 {
 .router>section img {
     margin: 0;
 }
-.router:hover h2, .router:hover h3 {
+a:hover .router h2, a:hover .router h3 {
     color: var(--heading-text-color);
+    text-decoration: none;
 }
