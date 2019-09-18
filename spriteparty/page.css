@@ -81,7 +81,7 @@ h1 {
 .links a {
     margin: 8px 16px;
 }
-.router-link {
+.router-link:hover {
     text-decoration: none;
 }
 .router {
