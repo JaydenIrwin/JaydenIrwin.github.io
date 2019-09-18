@@ -3,14 +3,14 @@ h1 {
 }
 @supports (-webkit-background-clip: text) {
     #title {
-        background: linear-gradient(#f80 0%, #f80 49.9%, #fff 50.1%, #fff 100%);
+        background: linear-gradient(#fc0 0%, #fc0 49.9%, #fff 50.1%, #fff 100%);
         background-attachment: fixed;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
 }
 .banner {
-    background: radial-gradient(#fb0, #f70);
+    background: radial-gradient(#ffde00, #ff9800);
     height: initial;
 }
 .full {
