@@ -28,7 +28,7 @@
 .models img {
     width: calc(100% - 8px);
     background-color: var(--alt-bg-color);
-	border-radius: 8;
+	border-radius: 8px;
 }
 .model h2 {
 	text-overflow: ellipsis;
