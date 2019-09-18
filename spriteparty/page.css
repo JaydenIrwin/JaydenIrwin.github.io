@@ -10,7 +10,7 @@ h1 {
     }
 }
 .banner {
-    background: radial-gradient(#ffee00, #ffbb00);
+    background: radial-gradient(#ffdd00, #ffaa00);
     height: initial;
 }
 .full {
@@ -81,6 +81,9 @@ h1 {
 .links a {
     margin: 8px 16px;
 }
+.router-link {
+    text-decoration: none;
+}
 .router {
     background: linear-gradient(45deg, #FDDE00, #FEB8C8);
 }
@@ -103,5 +106,4 @@ h1 {
 }
 a:hover .router h2, a:hover .router h3 {
     color: var(--heading-text-color);
-    text-decoration: none;
 }
