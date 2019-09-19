@@ -90,11 +90,11 @@ h1 {
     text-decoration: none;
 }
 .router {
-    background: linear-gradient(to top right, #FDDE00, #FEB8C8);
+    background: linear-gradient(45deg, #FDDE00, #FEB8C8);
 }
 @media (prefers-color-scheme: dark) {
 	.router {
-		background: linear-gradient(to top right, #6c5e00, #412145);
+		background: linear-gradient(45deg, #6c5e00, #412145);
 	}
 }
 .router, .router>section {
