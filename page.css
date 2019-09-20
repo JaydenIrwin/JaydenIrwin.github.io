@@ -33,7 +33,7 @@
     color: var(--heading-text-color);
 }
 .developer .summary a {
-    display: block;
+    display: inline-block;
     margin: 12px 0;
     color: var(--heading-text-color);
 }
