@@ -29,6 +29,17 @@
         background-size: cover;
     }
 }
+.developer .summary p {
+    color: var(--heading-text-color);
+}
+.developer .summary a {
+    display: block;
+    margin: 12px 0;
+    color: var(--heading-text-color);
+}
+.developer .summary a .nav-arrow {
+    font-size: 1.3em;
+}
 .apps {
     display: flex;
     padding: 12px 0;
