@@ -66,10 +66,10 @@ h1 {
     background-image: url(shot1.png);
 }
 #shot2 {
-    background-image: url(shot2.jpg);
+    background-image: url(shot2.png);
 }
 #shot3 {
-    background-image: url(shot3.jpg);
+    background-image: url(shot3.png);
 }
 .features {
     display: flex;
