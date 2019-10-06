@@ -91,6 +91,7 @@ body header {
     z-index: 99;
     width: 100%;
     background-color: var(--transparent-header-color);
+    backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
 }
 body header nav {
@@ -213,6 +214,7 @@ figcaption {
 
 .chapter-nav {
     background-color: var(--chapter-nav-bg-color);
+    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
 }
 .chapter-nav section {
