@@ -80,3 +80,6 @@ h1 {
     margin: 8px 16px;
     display: inline-block;
 }
+.links .badges a {
+    margin: initial;
+}
