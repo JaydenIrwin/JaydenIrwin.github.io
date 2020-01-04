@@ -15,7 +15,7 @@ h1 {
 }
 @media (prefers-color-scheme: dark) {
 	.banner {
-		background: radial-gradient(#ffb200, #361a00);
+		background: radial-gradient(transparent, #00000088), conic-gradient(#FF332A, #FF9400, #FFCC00, #4ED964, #007AFF, #5957D6);
 	}
 }
 .full {
