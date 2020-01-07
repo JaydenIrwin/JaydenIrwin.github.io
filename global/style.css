@@ -235,7 +235,7 @@ figcaption {
 }
 @media (prefers-color-scheme: dark) {
     .chapter-nav a.selected {
-        color: #999 !important;
+        color: #aaa !important;
     }
 }
 .chapter-nav figure {
