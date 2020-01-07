@@ -230,8 +230,13 @@ figcaption {
     text-shadow: none;
 }
 .chapter-nav a.selected {
-    color: #000 !important;
+    color: #999 !important;
     text-shadow: initial;
+}
+@media (prefers-color-scheme: dark) {
+    .chapter-nav a.selected {
+        color: #000 !important;
+    }
 }
 .chapter-nav figure {
     width: 80px;
