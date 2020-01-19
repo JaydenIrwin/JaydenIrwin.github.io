@@ -106,10 +106,17 @@ h1 {
     justify-content: space-around;
     align-items: center;
 }
+.router>section .content {
+    margin: 26px 0;
+}
 .router>section p {
     text-transform: uppercase;
     font-size: 0.9em;
     color: #d80;
+}
+.router>section h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .router>section img {
     margin: 0;

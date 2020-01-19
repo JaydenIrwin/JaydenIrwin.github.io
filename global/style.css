@@ -219,6 +219,8 @@ figcaption {
 }
 .chapter-nav section {
     padding: 12px;
+    white-space: nowrap;
+    overflow: auto;
 }
 .chapter-nav a {
     color: #fff;
