@@ -36,7 +36,7 @@ function devBG() {
         document.getElementById("developer").style.background = 'url("backdrop_game'+darkText+'.jpg") no-repeat center center';
     } else if (document.getElementById("apps").scrollLeft < 0.16 * appsWidth) {
     	document.getElementById("developer").style.background = 'url("backdrop_gym'+darkText+'.jpg") no-repeat center center';
-    } else if (document.getElementById("apps").scrollLeft < 0.25 * appsWidth) {
+    } else if (document.getElementById("apps").scrollLeft < 0.28 * appsWidth) {
     	document.getElementById("developer").style.background = 'url("backdrop_space.jpg") no-repeat center center';
     } else if (document.getElementById("apps").scrollLeft < 0.46 * appsWidth) {
         document.getElementById("developer").style.background = 'url("backdrop_yard'+darkText+'.jpg") no-repeat center center';
