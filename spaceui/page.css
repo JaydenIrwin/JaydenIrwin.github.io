@@ -57,6 +57,9 @@ h1 {
     background-repeat: no-repeat;
     background-size: 87%;
 }
+.apps div.landscape img {
+    background-size: 94%;
+}
 .apps div h3 {
     padding-bottom: 0;
     margin-bottom: 0;
