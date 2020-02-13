@@ -1,6 +1,3 @@
-h1 {
-    font-size: 80px;
-}
 @supports (-webkit-background-clip: text) {
     #title {
         background: linear-gradient(#E5C700 0%, #E5C700 49.9%, var(--heading-text-color) 50.1%, var(--heading-text-color) 100%);
@@ -14,54 +11,6 @@ h1 {
     background-size: cover;
     image-rendering: pixelated;
 }
-.full {
-    width: 100vw;
-}
-.feature {
-    background: linear-gradient(var(--alt-bg-color), var(--content-bg-color));
-}
-.feature section {
-    display: flex;
-    align-items: center;
-}
-.feature section h1 {
-    font-size: 44px;
-    text-align: left;
-    width: 400px;
-}
-@media (max-width: 490px) /* Compact Width */ {
-    h1 {
-        font-size: 44px;
-    }
-    .feature section {
-        flex-direction: column;
-    }
-    .feature section h1 {
-        font-size: 40px;
-        text-align: center;
-        width: initial;
-    }
-}
-.apps {
-    display: flex;
-    padding: 12px;
-    justify-content: center;
-    scroll-snap-type: mandatory;
-}
-.apps div {
-    scroll-snap-align: center none;
-    text-align: center;
-    text-decoration: none;
-}
-.apps div img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 87%;
-}
-.apps div h3 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
 #shot1 {
     background-image: url(shot1.png);
 }
@@ -70,16 +19,4 @@ h1 {
 }
 #shot3 {
     background-image: url(shot3.png);
-}
-.features {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.links a {
-    margin: 8px 16px;
-    display: inline-block;
-}
-.links .badges a {
-    margin: initial;
 }

@@ -211,11 +211,124 @@ figcaption {
     display: table-caption;
     caption-side: bottom;
 }
+input, textarea {
+    font-size: 16px;
+    padding: 8px;
+    width: calc(100% - 8px);
+    border-radius: 12px;
+    background-color: var(--control-color);
+    color: var(--control-text-color);
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+textarea {
+    resize: none;
+}
+summary:focus {
+    outline: none;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+pre {
+    background-color: var(--alt-bg-color);
+    padding: 2rem;
+    overflow-x: scroll;
+    margin: 16px 4px;
+    text-align: left;
+    border-radius: var(--border-radius);
+}
+code {
+    font-family: "Menlo", -apple-system, "San Fransisco", "Helvetica Neue", "Helvetica";
+    background-color: var(--alt-bg-color);
+    padding: 4px 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+pre code {
+    background-color: initial;
+    padding: initial;
+    font-size: initial;
+}
+.flex {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.invert-text {
+    color: var(--inverted-text-color);
+}
 
+/* Page-Specific */
+.app-info h1 {
+    font-size: 80px;
+}
+.full {
+    width: 100vw;
+}
+.feature {
+    background: linear-gradient(var(--alt-bg-color), var(--content-bg-color));
+}
+.feature section {
+    display: flex;
+    align-items: center;
+}
+.feature section h1 {
+    font-size: 44px;
+    text-align: left;
+    width: 400px;
+}
+@media (max-width: 490px) /* Compact Width */ {
+    .app-info h1 {
+        font-size: 44px;
+    }
+    .feature section {
+        flex-direction: column;
+    }
+    .feature section h1 {
+        font-size: 40px;
+        text-align: center;
+        width: initial;
+    }
+}
+.apps {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    scroll-snap-type: mandatory;
+}
+.apps div {
+    scroll-snap-align: center none;
+    text-align: center;
+    text-decoration: none;
+}
+.apps div img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 87%;
+}
+.apps div h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.links a {
+    margin: 8px 16px;
+    display: inline-block;
+}
+.links .badges a {
+    margin: initial;
+}
 .chapter-nav {
-    background-color: var(--chapter-nav-bg-color);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: var(--content-bg-color);
+    /*backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);*/
 }
 .chapter-nav section {
     padding: 12px;
@@ -284,53 +397,4 @@ form.contact-form {
     color: var(--inverted-text-color);
     border: none;
     border-radius: 14px 14px 0 14px;
-}
-input, textarea {
-    font-size: 16px;
-    padding: 8px;
-    width: calc(100% - 8px);
-    border-radius: 12px;
-    background-color: var(--control-color);
-    color: var(--control-text-color);
-    border: none;
-    outline: none;
-    -webkit-appearance: none;
-}
-textarea {
-    resize: none;
-}
-summary:focus {
-    outline: none;
-}
-summary::-webkit-details-marker {
-    display: none;
-}
-pre {
-    background-color: var(--alt-bg-color);
-    padding: 2rem;
-    overflow-x: scroll;
-    margin: 16px 4px;
-    text-align: left;
-    border-radius: var(--border-radius);
-}
-code {
-    font-family: "Menlo", -apple-system, "San Fransisco", "Helvetica Neue", "Helvetica";
-    background-color: var(--alt-bg-color);
-    padding: 4px 8px;
-    font-size: 1rem;
-    border-radius: 4px;
-}
-pre code {
-    background-color: initial;
-    padding: initial;
-    font-size: initial;
-}
-.flex {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-.invert-text {
-    color: var(--inverted-text-color);
 }
