@@ -266,8 +266,8 @@ pre code {
     font-size: 80px;
 }
 .app-info h3 {
-    font-size: 1.8em;
-    margin-top: -16px;
+    font-size: 28px;
+    margin-top: -12px;
     margin-bottom: 16px;
 }
 .full {
@@ -290,9 +290,9 @@ pre code {
         font-size: 44px;
     }
     .app-info h3 {
-        font-size: 1.8em;
-        margin-top: -8px;
-        margin-bottom: 8px;
+        font-size: 22px;
+        margin-top: -6px;
+        margin-bottom: 10px;
     }
     .feature section {
         flex-direction: column;
