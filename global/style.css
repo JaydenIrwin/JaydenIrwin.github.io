@@ -303,26 +303,26 @@ pre code {
         width: initial;
     }
 }
-.apps {
+.phone {
     display: flex;
     padding: 12px;
     justify-content: center;
     scroll-snap-type: mandatory;
 }
-.apps div {
+.phone div {
     scroll-snap-align: center none;
     text-align: center;
     text-decoration: none;
 }
-.apps div img {
+.phone div img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 87%;
 }
-.apps div.landscape img {
+.phone div.landscape img {
     background-size: 94%;
 }
-.apps div h3 {
+.phone div h3 {
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -382,14 +382,9 @@ pre code {
     color: #f46c0e;
     font-size: 10px;
 }
-
 .large-app-icon {
     border-radius: 28px;
     border: 1px solid #0002;
-}
-.emoji-icon {
-    font-size: 64px;
-    line-height: 64px;
 }
 form.contact-form {
     width: 512px;
