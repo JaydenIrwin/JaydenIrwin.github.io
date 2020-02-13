@@ -6,6 +6,11 @@
 .banner {
     background: url("banner.jpg") no-repeat center center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.banner h1 {
+    font-size: 52px;
 }
 .models {
     display: flex;
