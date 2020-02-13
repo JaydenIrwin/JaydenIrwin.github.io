@@ -15,57 +15,6 @@
 		background: radial-gradient(transparent, #000000bb), conic-gradient(#FF332A, #FF9400, #FFCC00, #4ED964, #007AFF, #5957D6, #FF332A, #FF9400, #FFCC00, #4ED964, #007AFF, #5957D6, #FF332A, #FF9400, #FFCC00, #4ED964, #007AFF, #5957D6, #FF332A);
 	}
 }
-/*.full {
-    width: 100vw;
-}
-.feature {
-    background: linear-gradient(var(--alt-bg-color), var(--content-bg-color));
-}
-.feature section {
-    display: flex;
-    align-items: center;
-}
-.feature section h1 {
-    font-size: 44px;
-    text-align: left;
-    width: 400px;
-}
-@media (max-width: 490px) /* Compact Width */ /*{
-    h1 {
-        font-size: 44px;
-    }
-    .feature section, .router>section>div {
-        flex-direction: column;
-    }
-    .feature section h1 {
-        font-size: 40px;
-        text-align: center;
-        width: initial;
-    }
-}
-.apps {
-    display: flex;
-    padding: 12px;
-    justify-content: center;
-    scroll-snap-type: mandatory;
-}
-.apps div {
-    scroll-snap-align: center none;
-    text-align: center;
-    text-decoration: none;
-}
-.apps div img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 87%;
-}*/
-.apps div.landscape img {
-    background-size: 94%;
-}/*
-.apps div h3 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-}*/
 #shot1 {
     background-image: url(shot1.png);
 }
@@ -74,14 +23,6 @@
 }
 #shot3 {
     background-image: url(shot3.jpg);
-}/*
-.features {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}*/
-.links a {
-    margin: 8px 16px;
 }
 .router-link:hover {
     text-decoration: none;
