@@ -10,7 +10,12 @@
     align-items: center;
 }
 .banner h1 {
-    font-size: 52px;
+    font-size: 80px;
+}
+@media (max-width: 490px) /* Compact Width */ {
+    .banner h1 {
+        font-size: 44px;
+    }
 }
 .models {
     display: flex;
