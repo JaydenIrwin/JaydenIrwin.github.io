@@ -6,11 +6,6 @@
         -webkit-background-clip: text;
     }
 }
-.banner {
-    background: url("banner.png") no-repeat center center;
-    background-size: cover;
-    image-rendering: pixelated;
-}
 #shot1 {
     background-image: url(shot1.png);
 }
