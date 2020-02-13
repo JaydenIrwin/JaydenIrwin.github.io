@@ -1,6 +1,3 @@
-h1 {
-    font-size: 80px;
-}
 @supports (-webkit-background-clip: text) {
     #title {
         background: linear-gradient(#fc0 0%, #fc0 49.9%, #fff 50.1%, #fff 100%);
@@ -18,7 +15,7 @@ h1 {
 		background: radial-gradient(transparent, #000000bb), conic-gradient(#FF332A, #FF9400, #FFCC00, #4ED964, #007AFF, #5957D6, #FF332A, #FF9400, #FFCC00, #4ED964, #007AFF, #5957D6, #FF332A, #FF9400, #FFCC00, #4ED964, #007AFF, #5957D6, #FF332A);
 	}
 }
-.full {
+/*.full {
     width: 100vw;
 }
 .feature {
@@ -33,7 +30,7 @@ h1 {
     text-align: left;
     width: 400px;
 }
-@media (max-width: 490px) /* Compact Width */ {
+@media (max-width: 490px) /* Compact Width */ /*{
     h1 {
         font-size: 44px;
     }
@@ -61,14 +58,14 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 87%;
-}
+}*/
 .apps div.landscape img {
     background-size: 94%;
-}
+}/*
 .apps div h3 {
     padding-bottom: 0;
     margin-bottom: 0;
-}
+}*/
 #shot1 {
     background-image: url(shot1.png);
 }
@@ -77,12 +74,12 @@ h1 {
 }
 #shot3 {
     background-image: url(shot3.jpg);
-}
+}/*
 .features {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
+}*/
 .links a {
     margin: 8px 16px;
 }

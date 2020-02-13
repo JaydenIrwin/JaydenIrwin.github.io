@@ -325,8 +325,11 @@ pre code {
 .links .badges a {
     margin: initial;
 }
+.chapter-container {
+    padding: 0;
+}
 .chapter-nav {
-    background-color: var(--content-bg-color);
+    background-color: var(--alt-bg-color);
     /*backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);*/
 }
