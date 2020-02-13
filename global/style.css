@@ -343,8 +343,6 @@ pre code {
 }
 .chapter-nav {
     background-color: var(--alt-bg-color);
-    /*backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);*/
 }
 .chapter-nav section {
     padding: 12px;

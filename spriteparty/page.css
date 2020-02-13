@@ -15,6 +15,11 @@
 		background: radial-gradient(transparent, #000000bb), conic-gradient(#FF332A, #FF9400, #FFCC00, #4ED964, #007AFF, #5957D6, #FF332A, #FF9400, #FFCC00, #4ED964, #007AFF, #5957D6, #FF332A, #FF9400, #FFCC00, #4ED964, #007AFF, #5957D6, #FF332A);
 	}
 }
+.chapter-nav {
+    background-color: var(--chapter-nav-bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
 #shot1 {
     background-image: url(shot1.png);
 }
