@@ -19,15 +19,11 @@
     position: relative;
 }
 .pad img {
-	position: absolute;
-	top: 0;
-	left: 0;
+    margin: 0;
 }
 .pad .shot {
+    position: absolute;
 	width: 93%;
     top: 3.5%;
     left: 3.5%;
-}
-.pad .hardware {
-	width: 110%;
 }
