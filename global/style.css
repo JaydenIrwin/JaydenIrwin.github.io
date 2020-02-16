@@ -280,7 +280,7 @@ pre code {
     display: flex;
     align-items: center;
 }
-.feature.pad section {
+.feature.feature-pad section {
     flex-direction: column;
 }
 .feature section h1 {
@@ -288,7 +288,7 @@ pre code {
     text-align: left;
     width: 400px;
 }
-.feature.pad section h1 {
+.feature.feature-pad section h1 {
     width: initial;
 }
 @media (max-width: 490px) /* Compact Width */ {
