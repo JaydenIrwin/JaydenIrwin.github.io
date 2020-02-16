@@ -280,6 +280,9 @@ pre code {
     display: flex;
     align-items: center;
 }
+.feature.pad section {
+    flex-direction: column;
+}
 .feature section h1 {
     font-size: 44px;
     text-align: left;
