@@ -15,6 +15,9 @@
 #shot2 {
     background-image: url(shot2.jpg);
 }
+.pad {
+    position: relative;
+}
 .pad img {
 	position: absolute;
 	top: 0;
