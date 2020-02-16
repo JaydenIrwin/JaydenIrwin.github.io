@@ -17,13 +17,15 @@
 }
 .pad {
     position: relative;
+    margin: 12px;
 }
 .pad img {
     margin: 0;
 }
 .pad .shot {
     position: absolute;
-	width: 93%;
-    top: 3.5%;
-    left: 3.5%;
+	width: 94%;
+    top: 4%;
+    left: 3%;
+    border-radius: 3px;
 }
