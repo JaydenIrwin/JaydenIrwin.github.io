@@ -6,15 +6,6 @@
         -webkit-background-clip: text;
     }
 }
-.apps div.landscape img {
-    background-size: 94%;
-}
-#shot1 {
-    background-image: url(shot1.jpg);
-}
-#shot2 {
-    background-image: url(shot2.jpg);
-}
 .pad {
     position: relative;
     margin: 12px;

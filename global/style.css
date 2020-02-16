@@ -288,6 +288,9 @@ pre code {
     text-align: left;
     width: 400px;
 }
+.feature.pad section h1 {
+    width: initial;
+}
 @media (max-width: 490px) /* Compact Width */ {
     .app-info h1 {
         font-size: 44px;
