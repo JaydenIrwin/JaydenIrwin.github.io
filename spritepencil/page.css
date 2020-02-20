@@ -1,6 +1,6 @@
 @supports (-webkit-background-clip: text) {
     #title {
-        background: linear-gradient(#E5C700 0%, #E5C700 49.9%, var(--heading-text-color) 50.1%, var(--heading-text-color) 100%);
+        background: linear-gradient(#F0CA00 0%, #F0CA00 49.9%, var(--heading-text-color) 50.1%, var(--heading-text-color) 100%);
         background-attachment: fixed;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
@@ -10,8 +10,11 @@
     background-image: url(shot1.png);
 }
 #shot2 {
-    background-image: url(shot2.png);
+    background-image: url(shot2.jpg);
 }
 #shot3 {
-    background-image: url(shot3.png);
+    background-image: url(shot3.jpg);
+}
+#shot4 {
+    background-image: url(shot4.png);
 }
