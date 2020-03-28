@@ -21,9 +21,14 @@
 .supported-features section {
     width: 256px;
 }
+.supported-features li {
+    list-style: none;
+}
 .supported-features img {
     border-radius: 4px;
+    vertical-align: middle;
 }
 .supported-features h4 {
+    display: inline-block;
     font-weight: 500;
 }
