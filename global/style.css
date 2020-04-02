@@ -313,7 +313,7 @@ pre code {
     display: flex;
     padding: 12px;
     justify-content: center;
-    scroll-snap-type: mandatory;
+    scroll-snap-type: x mandatory;
 }
 .phone div {
     scroll-snap-align: center none;
