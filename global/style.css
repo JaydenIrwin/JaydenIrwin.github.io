@@ -48,9 +48,6 @@
     --control-text-color: #fff;
     --border-color: #b3b3b3;
 }
-body.window-inactive {
-    --tint-color: #888;
-}
 
 /* General */
 * {
@@ -59,7 +56,7 @@ body.window-inactive {
 }
 body {
     margin: 0;
-    font-family: -apple-system, "San Fransisco", "Helvetica Neue", "Helvetica";
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "San Fransisco", "Helvetica Neue", "Helvetica", sans-sarif;
     -webkit-font-smoothing: antialiased;
     background-color: var(--alt-bg-color);
     color: var(--text-color);
@@ -240,7 +237,7 @@ pre {
     border-radius: var(--border-radius);
 }
 code {
-    font-family: "Menlo", -apple-system, "San Fransisco", "Helvetica Neue", "Helvetica";
+    font-family: "Melno";
     background-color: var(--alt-bg-color);
     padding: 4px 8px;
     font-size: 1rem;
@@ -354,6 +351,9 @@ pre code {
     padding: 12px;
     white-space: nowrap;
     overflow: auto;
+}
+.chapter-nav section::-webkit-scrollbar {
+    display: none;
 }
 .chapter-nav a {
     color: #fff;
