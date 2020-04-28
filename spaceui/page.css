@@ -6,17 +6,10 @@
         -webkit-background-clip: text;
     }
 }
-.pad {
-    position: relative;
-    margin: 12px;
+.full-promo {
+    padding: 0;
 }
-.pad img {
-    margin: 0;
-}
-.pad .shot {
-    position: absolute;
-	width: 94%;
-    top: 4.2%;
-    left: 3%;
-    border-radius: 8px;
+.full-promo img {
+    width: 100vw;
+    height: auto;
 }
