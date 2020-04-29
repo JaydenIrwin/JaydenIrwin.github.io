@@ -260,12 +260,12 @@ pre code {
 
 /* Page-Specific */
 .app-info h1 {
-    font-size: 80px;
+    font-size: 60px;
 }
 .app-info h3 {
-    font-size: 28px;
-    margin-top: -12px;
-    margin-bottom: 16px;
+    font-size: 24px;
+    margin-top: -10px;
+    margin-bottom: 14px;
 }
 .full {
     width: 100vw;
@@ -369,7 +369,7 @@ pre code {
     text-shadow: none;
 }
 .chapter-nav a.selected {
-    color: #555 !important;
+    color: #666 !important;
     text-shadow: initial;
 }
 @media (prefers-color-scheme: dark) {
