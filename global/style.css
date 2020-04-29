@@ -356,16 +356,20 @@ pre code {
     display: none;
 }
 .chapter-nav a {
-    color: #fff;
-    text-shadow: 0 0 32px #000a;
+    color: var(--text-color);
     text-decoration: none;
+}
+@media (prefers-color-scheme: dark) {
+    .chapter-nav a {
+        text-shadow: 0 0 32px #000a;
+    }
 }
 .chapter-nav a:not(.disabled):hover {
     color: var(--tint-color);
     text-shadow: none;
 }
 .chapter-nav a.selected {
-    color: #000 !important;
+    color: #555 !important;
     text-shadow: initial;
 }
 @media (prefers-color-scheme: dark) {
