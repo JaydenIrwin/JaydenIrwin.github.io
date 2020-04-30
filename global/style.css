@@ -290,10 +290,10 @@ pre code {
 }
 @media (max-width: 490px) /* Compact Width */ {
     .app-info h1 {
-        font-size: 44px;
+        font-size: 40px;
     }
     .app-info h3 {
-        font-size: 22px;
+        font-size: 20px;
         margin-top: -6px;
         margin-bottom: 10px;
     }
