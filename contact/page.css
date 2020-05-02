@@ -1,5 +1,5 @@
 .banner {
-    background: url("banner.png") no-repeat center center, linear-gradient(right, #11C8FB, #1B70F2), #1B70F2;
+    background: url("banner.png") no-repeat center center, linear-gradient(270deg, #11C8FB, #1B70F2), #1B70F2;
     background-size: contain, 100%;
 }
 .faq {
