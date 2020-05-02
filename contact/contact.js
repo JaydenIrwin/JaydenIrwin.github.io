@@ -9,9 +9,8 @@ function updateBody() {
 }
 
 function gRecaptchaTrue() {
-	let to = "me";
-	let domain = "jaydenirwin.com";
-	mailto = "mailto:" + to + "@" + domain;
+	let to = "info";
+	mailto = "mailto:" + to + "@";
 	updateLink();
 }
 
@@ -21,8 +20,9 @@ function gRecaptchaFalse() {
 }
 
 function updateLink() {
+	let domain = "jaydenirwin.com";
 	if (mailto != "") {
-		$("#review-message").attr("href", mailto + body).attr("onclick", "send()").removeClass("disabled");
+		$("#review-message").attr("href", mailto + domain + body).attr("onclick", "send()").removeClass("disabled");
 	} else {
 		$("#review-message").attr("href", "").attr("onclick", "").addClass("disabled");
 	}
