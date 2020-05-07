@@ -40,17 +40,19 @@
     background-color: var(--alt-bg-color);
 	border-radius: 8px;
 }
-.model h2 {
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
-}
 .models a:hover {
 	color: var(--tint-color);
     text-decoration: none;
 }
 .models a:active img {
     -webkit-filter: brightness(0.8);
+}
+.models a .tag {
+    font-size: 17px;
+    background-color: #08f4;
+    border-radius: 5px;
+    color: #08f;
+    padding: 1px 6px;
 }
 .links a {
     margin: 8px 16px;
