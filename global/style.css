@@ -260,12 +260,12 @@ pre code {
 
 /* Page-Specific */
 .app-info h1 {
-    font-size: 60px;
+    font-size: 50px;
 }
 .app-info h3 {
-    font-size: 24px;
-    margin-top: -10px;
-    margin-bottom: 14px;
+    font-size: 22px;
+    margin-top: -8px;
+    margin-bottom: 12px;
 }
 .app-buy {
     display: inline-block;
@@ -275,10 +275,16 @@ pre code {
     line-height: 40px;
     border-radius: 20px;
     font-size: 24px;
+    font-weight: 600;
 }
 .app-buy:hover {
     text-decoration: none;
     color: #fff;
+}
+.app-info .tag {
+    color: var(--minor-text-color);
+    font-size: 0.9em;
+    padding-top: 8px;
 }
 .full {
     width: 100vw;
@@ -303,7 +309,7 @@ pre code {
 }
 @media (max-width: 490px) /* Compact Width */ {
     .app-info h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
     .app-info h3 {
         font-size: 20px;

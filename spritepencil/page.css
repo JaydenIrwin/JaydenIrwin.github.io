@@ -7,7 +7,8 @@
     }
 }
 .banner {
-    background: url("banner.png");
+    background: url("banner.png") no-repeat center center;
+    background-size: cover;
     image-rendering: pixelated;
 }
 #shot1 {
