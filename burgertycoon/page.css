@@ -1,10 +1,14 @@
 @supports (-webkit-background-clip: text) {
     #title {
-        background: linear-gradient(#F9E14B 0%, #F9E14B 39.9%, var(--heading-text-color) 40.1%, var(--heading-text-color) 100%);
+        background: linear-gradient(#F9E14B 0%, #F9E14B 49.9%, var(--heading-text-color) 50.1%, var(--heading-text-color) 100%);
         background-attachment: fixed;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
+}
+.button.app-buy {
+    background: linear-gradient(#F9E14B 0%, #F9E14B 49.9%, #08f 50.1%, #08f 100%);
+    background-attachment: fixed;
 }
 #shot1 {
     background-image: url(shot1.jpg);

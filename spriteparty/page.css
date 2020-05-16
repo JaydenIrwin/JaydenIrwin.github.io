@@ -1,6 +1,6 @@
 @supports (-webkit-background-clip: text) {
     #title {
-        background: linear-gradient(#fc0 0%, #fc0 39.9%, #fff 40.1%, #fff 100%);
+        background: linear-gradient(#fc0 0%, #fc0 49.9%, #fff 50.1%, #fff 100%);
         background-attachment: fixed;
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
@@ -19,6 +19,10 @@
     background-color: var(--chapter-nav-bg-color);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+}
+.button.app-buy {
+    background: linear-gradient(#fc0 0%, #fc0 49.9%, #08f 50.1%, #08f 100%);
+    background-attachment: fixed;
 }
 #shot1 {
     background-image: url(shot1.png);
