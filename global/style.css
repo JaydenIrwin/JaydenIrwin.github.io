@@ -271,7 +271,13 @@ pre code {
     display: inline-block;
     background-color: #08f;
     color: #fff;
-    padding: 8px;
+    width: 120px;
+    line-height: 40px;
+    font-size: 24px;
+}
+.app-buy:hover {
+    text-decoration: none;
+    color: #fff;
 }
 .full {
     width: 100vw;
