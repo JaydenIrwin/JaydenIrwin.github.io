@@ -66,7 +66,7 @@ body section {
     width: 100%;
     padding: 32px 0;
 }
-body section.alt-bg {
+body section.secondary-bg {
     background-color: var(--secondary-bg-color);
 }
 body section section, body header nav, body footer section {
@@ -126,7 +126,7 @@ footer {
     padding: 0;
     background-color: #888;
 }
-a.button, img, figcaption, input, textarea {
+.button, img, figcaption, input, textarea {
     margin: 4px;
 }
 h1, h2, h3, h4, h5, h6, p {
@@ -267,7 +267,7 @@ pre code {
     margin-top: -8px;
     margin-bottom: 12px;
 }
-.app-buy {
+.button.app-buy {
     display: inline-block;
     background-color: #08f;
     color: #fff;
@@ -277,11 +277,11 @@ pre code {
     font-size: 24px;
     font-weight: 600;
 }
-.app-buy:hover {
+.button.app-buy:hover {
     text-decoration: none;
     color: #fff;
 }
-.app-info .tag {
+.button.app-info .tag {
     color: var(--secondary-text-color);
     font-size: 0.9em;
     padding-top: 8px;

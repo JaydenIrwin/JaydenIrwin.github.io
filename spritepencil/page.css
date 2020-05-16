@@ -23,6 +23,9 @@
 #shot4 {
     background-image: url(shot4.png);
 }
+.supported-features {
+    background-color: var(--secondary-bg-color);
+}
 .supported-features h3 {
     text-align: left;
 }
