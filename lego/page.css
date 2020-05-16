@@ -49,9 +49,9 @@
 }
 .models a .tag {
     font-size: 17px;
-    background-color: #08f3;
+    background-color: #007aff33;
     border-radius: 5px;
-    color: #08f;
+    color: #007aff;
     padding: 1px 6px;
 }
 .links a {
