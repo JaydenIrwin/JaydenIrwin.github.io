@@ -6,6 +6,10 @@
         -webkit-background-clip: text;
     }
 }
+.banner {
+    background: url("banner.png") no-repeat center center;
+    background-size: cover;
+}
 .button.app-buy {
     background: linear-gradient(#00b9ee 0%, #00b9ee 49.9%, #08f 50.1%, #08f 100%);
     background-attachment: fixed;
