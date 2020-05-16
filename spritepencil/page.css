@@ -11,6 +11,9 @@
     background-size: cover;
     image-rendering: pixelated;
 }
+.button.app-buy {
+    background: linear-gradient(#F0CA00 0%, #F0CA00 49.9%, #08f 50.1%, #08f 100%)
+}
 #shot1 {
     background-image: url(shot1.jpg);
 }

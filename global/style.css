@@ -259,6 +259,9 @@ pre code {
 }
 
 /* Page-Specific */
+.app-info section:first-child {
+    margin-top: -128px;
+}
 .app-info h1 {
     font-size: 50px;
 }
