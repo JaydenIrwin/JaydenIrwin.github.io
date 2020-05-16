@@ -151,7 +151,7 @@ p {
     line-height: 1.45;
     color: var(--text-color);
 }
-p.minor {
+p.secondary {
     color: var(--secondary-text-color);
     font-size: 1em;
     padding: 0 4px;
@@ -172,7 +172,7 @@ a:hover, a:hover h1, a:hover h2, a:hover h3 {
 a.selected {
     color: var(--text-color) !important;
 }
-button, a.button {
+button, .button {
     color: var(--accent-color);
     background-color: var(--control-color);
     font-size: 1em;
@@ -182,11 +182,11 @@ button, a.button {
     border-radius: var(--border-radius);
     border: none;
 }
-a.button:hover {
+.button:hover {
     text-decoration: none;
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
 }
-a.button.prominent {
+.button.filled {
     color: var(--bg-color);
     background-color: var(--accent-color);
     text-transform: uppercase;
@@ -195,7 +195,7 @@ a.button.prominent {
     min-width: 64px;
     text-align: center;
 }
-a.button.disabled {
+.button.disabled {
     color: #aaa;
     background-image: none;
     cursor: not-allowed;
