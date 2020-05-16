@@ -267,6 +267,12 @@ pre code {
     margin-top: -10px;
     margin-bottom: 14px;
 }
+.app-buy {
+    display: inline-block;
+    background-color: #08f;
+    color: #fff;
+    padding: 8px;
+}
 .full {
     width: 100vw;
 }
@@ -345,7 +351,9 @@ pre code {
     padding: 0;
 }
 .chapter-nav {
-    background-color: var(--alt-bg-color);
+    background-color: var(--chapter-nav-bg-color);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 .chapter-nav section {
     padding: 12px;

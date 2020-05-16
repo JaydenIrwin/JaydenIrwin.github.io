@@ -6,6 +6,10 @@
         -webkit-background-clip: text;
     }
 }
+.banner {
+    background: url("banner.png");
+    image-rendering: pixelated;
+}
 #shot1 {
     background-image: url(shot1.jpg);
 }
