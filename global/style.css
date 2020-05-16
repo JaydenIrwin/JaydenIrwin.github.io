@@ -3,47 +3,47 @@
 	color-scheme: light dark;
 }
 :root, .light-theme {
-    --content-bg-color: #fff;
-    --alt-bg-color: #f7f7f7;
-    --trans-alt-bg-color: #f7f7f7cc;
+    --bg-color: #fff;
+    --secondary-bg-color: #f7f7f7;
+    --trans-secondary-bg-color: #f7f7f7cc;
     --heading-text-color: #111;
     --text-color: #333;
+    --secondary-text-color: #888;
     --inverted-text-color: #fff;
     --transparent-header-color: rgba(247, 247, 247, 0.85);
     --chapter-nav-bg-color: #fff8;
-    --minor-text-color: #888;
     --border-color: #b3b3b3;
-    --tint-color: #e6e;
+    --accent-color: #e6e;
     --control-color: #f7f7f7;
     --control-text-color: #000;
     --border-radius: 16px;
 }
 @media (prefers-color-scheme: dark) {
 	:root {
-	    --content-bg-color: #242426;
-	    --alt-bg-color: #1c1c1e;
-        --trans-alt-bg-color: #1c1c1eaa;
+	    --bg-color: #242426;
+	    --secondary-bg-color: #1c1c1e;
+        --trans-secondary-bg-color: #1c1c1eaa;
 	    --heading-text-color: #fff;
 	    --text-color: #ddd;
+        --secondary-text-color: #888;
 	    --inverted-text-color: #000;
 	    --transparent-header-color: rgba(28, 28, 30, 0.75);
         --chapter-nav-bg-color: #24242688;
-	    --minor-text-color: #888;
         --control-color: #fff4;
         --control-text-color: #fff;
 	    --border-color: #b3b3b3;
 	}
 }
 :root[data-theme="dark"], .dark-theme {
-    --content-bg-color: #242426;
-    --alt-bg-color: #1c1c1e;
-    --trans-alt-bg-color: #1c1c1eaa;
+    --bg-color: #242426;
+    --secondary-bg-color: #1c1c1e;
+    --trans-secondary-bg-color: #1c1c1eaa;
     --heading-text-color: #fff;
     --text-color: #ddd;
+    --secondary-text-color: #888;
     --inverted-text-color: #000;
     --transparent-header-color: rgba(28, 28, 30, 0.75);
     --chapter-nav-bg-color: #24242688;
-    --minor-text-color: #888;
     --control-color: #fff4;
     --control-text-color: #fff;
     --border-color: #b3b3b3;
@@ -58,16 +58,16 @@ body {
     margin: 0;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "San Fransisco", "Helvetica Neue", "Helvetica", sans-sarif;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--alt-bg-color);
+    background-color: var(--secondary-bg-color);
     color: var(--text-color);
 }
 body section {
-    background-color: var(--content-bg-color);
+    background-color: var(--bg-color);
     width: 100%;
     padding: 32px 0;
 }
 body section.alt-bg {
-    background-color: var(--alt-bg-color);
+    background-color: var(--secondary-bg-color);
 }
 body section section, body header nav, body footer section {
 	width: 980px;
@@ -99,7 +99,7 @@ body header nav {
 .header-space {
     height: 44px;
     padding: 0;
-    background-color: var(--alt-bg-color);
+    background-color: var(--secondary-bg-color);
 }
 @supports(padding: max(0px)) {
     body header nav, body section section {
@@ -152,12 +152,12 @@ p {
     color: var(--text-color);
 }
 p.minor {
-    color: var(--minor-text-color);
+    color: var(--secondary-text-color);
     font-size: 1em;
     padding: 0 4px;
 }
 a, button, summary {
-    color: var(--tint-color);
+    color: var(--accent-color);
     text-decoration: none;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
@@ -167,13 +167,13 @@ a:hover {
     text-decoration: underline;
 }
 a:hover, a:hover h1, a:hover h2, a:hover h3 {
-    color: var(--tint-color);
+    color: var(--accent-color);
 }
 a.selected {
     color: var(--text-color) !important;
 }
 button, a.button {
-    color: var(--tint-color);
+    color: var(--accent-color);
     background-color: var(--control-color);
     font-size: 1em;
     line-height: 32px;
@@ -187,8 +187,8 @@ a.button:hover {
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
 }
 a.button.prominent {
-    color: var(--content-bg-color);
-    background-color: var(--tint-color);
+    color: var(--bg-color);
+    background-color: var(--accent-color);
     text-transform: uppercase;
     font-weight: bold;
     line-height: 24px;
@@ -229,7 +229,7 @@ summary::-webkit-details-marker {
     display: none;
 }
 pre {
-    background-color: var(--alt-bg-color);
+    background-color: var(--secondary-bg-color);
     padding: 2rem;
     overflow-x: scroll;
     margin: 16px 4px;
@@ -238,7 +238,7 @@ pre {
 }
 code {
     font-family: "Melno";
-    background-color: var(--alt-bg-color);
+    background-color: var(--secondary-bg-color);
     padding: 4px 8px;
     font-size: 1rem;
     border-radius: 4px;
@@ -282,7 +282,7 @@ pre code {
     color: #fff;
 }
 .app-info .tag {
-    color: var(--minor-text-color);
+    color: var(--secondary-text-color);
     font-size: 0.9em;
     padding-top: 8px;
 }
@@ -290,7 +290,7 @@ pre code {
     width: 100vw;
 }
 .feature {
-    background: linear-gradient(var(--alt-bg-color), var(--content-bg-color));
+    background: linear-gradient(var(--secondary-bg-color), var(--bg-color));
 }
 .feature section {
     display: flex;
@@ -386,7 +386,7 @@ pre code {
     }
 }
 .chapter-nav a:not(.disabled):hover {
-    color: var(--tint-color);
+    color: var(--accent-color);
     text-shadow: none;
 }
 .chapter-nav a.selected {
@@ -433,7 +433,7 @@ form.contact-form {
     margin: auto;
     padding: 8px;
     text-align: right;
-    background-color: var(--tint-color);
+    background-color: var(--accent-color);
     color: var(--inverted-text-color);
     border: none;
     border-radius: 14px 14px 0 14px;
