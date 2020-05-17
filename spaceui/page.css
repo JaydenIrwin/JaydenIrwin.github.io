@@ -9,6 +9,7 @@
 .banner {
     background: url("banner.png") no-repeat center center;
     background-size: cover;
+    height: 340px;
 }
 .button.app-buy {
     background: linear-gradient(#00b9ee 0%, #00b9ee 49.9%, #007aff 50.1%, #007aff 100%);
