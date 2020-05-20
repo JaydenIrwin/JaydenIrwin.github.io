@@ -11,6 +11,16 @@
     background-size: cover;
     image-rendering: pixelated;
 }
+.banner .credit-link {
+    display: hidden;
+    color: #fffb;
+    float: right;
+    text-shadow: 0 0 8px #000;
+    font-size: 11px;
+}
+.banner:hover .credit-link {
+    display: initial;
+}
 .button.app-buy {
     background: linear-gradient(#F0CA00 0%, #F0CA00 49.9%, #007aff 50.1%, #007aff 100%);
     background-attachment: fixed;
