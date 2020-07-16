@@ -34,16 +34,18 @@ function devBG() {
 	var darkText = window.matchMedia("(prefers-color-scheme: dark)").matches ? "_dark" : "";
     if (document.getElementById("apps").scrollLeft < 0.08 * appsWidth) {
         document.getElementById("developer").style.background = 'url("backdrop_game'+darkText+'.jpg") no-repeat center center';
-    } else if (document.getElementById("apps").scrollLeft < 0.18 * appsWidth) {
+    } else if (document.getElementById("apps").scrollLeft < 0.15 * appsWidth) {
     	document.getElementById("developer").style.background = 'url("backdrop_gym'+darkText+'.jpg") no-repeat center center';
     } else if (document.getElementById("apps").scrollLeft < 0.30 * appsWidth) {
     	document.getElementById("developer").style.background = 'url("backdrop_space.jpg") no-repeat center center';
-    } else if (document.getElementById("apps").scrollLeft < 0.46 * appsWidth) {
+    } else if (document.getElementById("apps").scrollLeft < 0.45 * appsWidth) {
         document.getElementById("developer").style.background = 'url("backdrop_yard'+darkText+'.jpg") no-repeat center center';
-    } else if (document.getElementById("apps").scrollLeft < 0.63 * appsWidth) {
+    } else if (document.getElementById("apps").scrollLeft < 0.60 * appsWidth) {
         document.getElementById("developer").style.background = 'url("backdrop_factory'+darkText+'.jpg") no-repeat center center';
-	} else if (document.getElementById("apps").scrollLeft < 0.77 * appsWidth) {
+	} else if (document.getElementById("apps").scrollLeft < 0.75 * appsWidth) {
     	document.getElementById("developer").style.background = 'url("backdrop_gym'+darkText+'.jpg") no-repeat center center';
+    } else if (document.getElementById("apps").scrollLeft < 0.80 * appsWidth) {
+        document.getElementById("developer").style.background = 'url("backdrop_yard'+darkText+'.jpg") no-repeat center center';
     } else {
 		document.getElementById("developer").style.background = 'url("backdrop_factory' + darkText + '.jpg") no-repeat center center';
 	}
