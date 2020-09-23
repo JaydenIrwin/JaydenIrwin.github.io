@@ -302,6 +302,10 @@ pre code {
 .feature.feature-pad section {
     flex-direction: column;
 }
+.feature section .caption {
+    margin: 0 auto;
+    text-align: left;
+}
 .feature section h1 {
     font-size: 44px;
     text-align: left;
