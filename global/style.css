@@ -56,7 +56,7 @@
 }
 body {
     margin: 0;
-    font-family: "SF Pro Display", "SF Pro Icons", -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     -webkit-font-smoothing: antialiased;
     background-color: var(--secondary-bg-color);
     color: var(--text-color);
