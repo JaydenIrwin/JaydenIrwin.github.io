@@ -10,6 +10,10 @@
     }
 }
 .packages a {
+	display: inline-block;
+	width: 500px;
+	padding: 8px;
+	margin: 8px;
 	background-color: var(--secondary-bg-color);
 	border-radius: 16px;
 	text-align: left;
