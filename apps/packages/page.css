@@ -11,13 +11,17 @@
 }
 .packages a {
 	display: inline-block;
-	width: 500px;
+	width: 512px;
 	padding: 8px;
-	margin: 8px;
+	margin: 8px 0;
 	background-color: var(--secondary-bg-color);
 	border-radius: 16px;
 	text-align: left;
 }
 .packages a:hover {
     text-decoration: none;
+}
+.package p.tag {
+	font-size: 1em;
+	font-weight: bold;
 }
