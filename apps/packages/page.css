@@ -1,6 +1,11 @@
 .banner {
     background: linear-gradient(#FBB040, #FF3527);
 }
+.banner section.title {
+	height: calc(100% - 252px);
+	display: flex;
+	align-items: center;
+}
 .banner h1 {
     font-size: 80px;
 }
