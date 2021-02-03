@@ -22,7 +22,7 @@
 	width: 512px;
 	padding: 8px;
 	margin: 8px 0;
-	background-color: var(--secondary-bg-color);
+	background-color: var(--grouped-secondary-bg-color);
 	border-radius: 16px;
 	text-align: left;
 }
