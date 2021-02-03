@@ -33,7 +33,7 @@
 	    --inverted-text-color: #000;
 	    --transparent-header-color: rgba(28, 28, 30, 0.75);
         --chapter-nav-bg-color: #24242688;
-        --control-color: #fff4;
+        --control-color: #fff2;
         --control-text-color: #fff;
 	    --border-color: #b3b3b3;
 	}
@@ -50,7 +50,7 @@
     --inverted-text-color: #000;
     --transparent-header-color: rgba(28, 28, 30, 0.75);
     --chapter-nav-bg-color: #24242688;
-    --control-color: #fff4;
+    --control-color: #fff2;
     --control-text-color: #fff;
     --border-color: #b3b3b3;
 }
