@@ -20,7 +20,7 @@
 }
 @media (prefers-color-scheme: dark) {
 	:root {
-	    --bg-color: #242426;
+	    --bg-color: #111113;
 	    --secondary-bg-color: #1c1c1e;
         --trans-secondary-bg-color: #1c1c1eaa;
 	    --heading-text-color: #fff;
@@ -35,7 +35,7 @@
 	}
 }
 :root[data-theme="dark"], .dark-theme {
-    --bg-color: #242426;
+    --bg-color: #111113;
     --secondary-bg-color: #1c1c1e;
     --trans-secondary-bg-color: #1c1c1eaa;
     --heading-text-color: #fff;
