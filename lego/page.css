@@ -17,6 +17,9 @@
         font-size: 44px;
     }
 }
+.lego {
+    background-color: var(--grouped-bg-color);
+}
 .models {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +40,7 @@
 }
 .models img {
     width: calc(100% - 8px);
-    background-color: var(--secondary-bg-color);
+    background-color: var(--grouped-secondary-bg-color);
 	border-radius: 8px;
 }
 .models a:hover {

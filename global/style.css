@@ -6,6 +6,8 @@
     --bg-color: #fff;
     --secondary-bg-color: #f7f7f7;
     --trans-secondary-bg-color: #f7f7f7cc;
+    --grouped-bg-color: #f7f7f7;
+    --grouped-secondary-bg-color: #fff;
     --heading-text-color: #111;
     --text-color: #333;
     --secondary-text-color: #888;
@@ -23,6 +25,8 @@
 	    --bg-color: #111113;
 	    --secondary-bg-color: #1c1c1e;
         --trans-secondary-bg-color: #1c1c1eaa;
+        --grouped-bg-color: #111113;
+    	--grouped-secondary-bg-color: #1c1c1e;
 	    --heading-text-color: #fff;
 	    --text-color: #ddd;
         --secondary-text-color: #888;
@@ -38,6 +42,8 @@
     --bg-color: #111113;
     --secondary-bg-color: #1c1c1e;
     --trans-secondary-bg-color: #1c1c1eaa;
+    --grouped-bg-color: #111113;
+	--grouped-secondary-bg-color: #1c1c1e;
     --heading-text-color: #fff;
     --text-color: #ddd;
     --secondary-text-color: #888;
@@ -68,6 +74,9 @@ body section {
 }
 body section.secondary-bg {
     background-color: var(--secondary-bg-color);
+}
+body section.grouped-secondary-bg {
+    background-color: var(--grouped-secondary-bg-color);
 }
 body section section, body header nav, body footer section {
 	width: 980px;
