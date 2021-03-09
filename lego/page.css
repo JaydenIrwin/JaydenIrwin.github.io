@@ -52,14 +52,14 @@
 }
 .models a .tag {
     font-size: 17px;
-    background-color: #007aff33;
+    background-color: #1987FF33;
     border-radius: 5px;
-    color: #007aff;
+    color: #1987FF;
     padding: 1px 6px;
 }
 .models a .tag.buy-tag {
-    background-color: #07d60033;
-    color: #07d600;
+    background-color: #06c50033;
+    color: #06c500;
 }
 .links a {
     margin: 8px 16px;
