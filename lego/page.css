@@ -57,6 +57,10 @@
     color: #007aff;
     padding: 1px 6px;
 }
+.models a .tag.buy-tag {
+    background-color: #07d60033;
+    color: #07d600;
+}
 .links a {
     margin: 8px 16px;
     display: inline-block;
