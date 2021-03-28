@@ -5,7 +5,7 @@
              "appIDs": [ "VA3SY54YU8.com.jaydenirwin.spritepencil" ],
              "components": [
                {
-                  "/": "/importfromapp",
+                  "/": "/spritepencil/importfromapp",
                   "comment": "Matches any URL whose path starts with /buy/"
                }
              ]
