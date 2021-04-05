@@ -429,6 +429,7 @@ pre code {
 }
 .chapter-nav figcaption {
     font-size: 12px;
+    margin: 4px 0;
 }
 .chapter-nav figcaption span {
     display: block;
