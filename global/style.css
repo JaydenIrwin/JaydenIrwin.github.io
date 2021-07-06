@@ -108,7 +108,7 @@ body header nav {
 .header-space {
     height: 44px;
     padding: 0;
-    background-color: var(--secondary-bg-color);
+    background-color: transparent;
 }
 @supports(padding: max(0px)) {
     body header nav, body section section {
@@ -186,7 +186,7 @@ button, .button {
     background-color: var(--control-color);
     font-size: 1em;
     line-height: 32px;
-    padding: 0 8px;
+    padding: 0 12px;
     display: inline-block;
     border-radius: var(--border-radius);
     border: none;
