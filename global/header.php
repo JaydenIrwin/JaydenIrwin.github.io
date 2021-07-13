@@ -11,6 +11,14 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="keywords" content="jayden irwin, LEGO, star wars, contract, developer, ontario, iOS, swift">
         <meta name="description" content="iOS developer and student from Ontario, Canada. Creator of Sprite Pencil for iOS. LEGO MOC maker with downloadable instructions.">
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1K3VKRF5RZ"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-1K3VKRF5RZ');
+        </script>
     </head>
     <body ontouchstart>
         <header>
