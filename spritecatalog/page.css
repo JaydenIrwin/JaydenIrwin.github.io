@@ -19,7 +19,7 @@
     background-attachment: fixed;
 }
 .button.web-app-get {
-    background: var(--secondary-bg-color);
+    background: var(--control-color);
 }
 #shot1 {
     background-image: url(shot1.jpg);
