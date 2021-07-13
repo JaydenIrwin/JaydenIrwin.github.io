@@ -19,7 +19,11 @@
     background-attachment: fixed;
 }
 .button.web-app-get {
+    color: var(--control-text-color);
     background: var(--control-color);
+}
+.button.web-app-get:hover {
+    color: var(--control-text-color);
 }
 #shot1 {
     background-image: url(shot1.jpg);
