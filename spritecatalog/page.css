@@ -9,7 +9,12 @@
 .banner {
     background: url("banner.jpg") no-repeat center center;
     background-size: cover;
-    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+@supports (image-rendering: pixelated) {
+    .banner {
+        image-rendering: pixelated;
+    }
 }
 .app-info section div {
     display: inline-block;
