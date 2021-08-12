@@ -9,6 +9,12 @@
 .banner {
     background: url("banner.png") no-repeat center center;
     background-size: cover;
+    image-rendering: crisp-edges;
+}
+@supports (image-rendering: pixelated) {
+    .banner {
+        image-rendering: pixelated;
+    }
 }
 .banner .credit-link {
     padding: 8px 16px;
