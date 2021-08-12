@@ -38,3 +38,27 @@
 #shot4 {
     background-image: url(shot4.jpg);
 }
+.supported-features {
+    background-color: var(--secondary-bg-color);
+}
+.supported-features h3 {
+    text-align: left;
+}
+.supported-features section {
+    width: 256px;
+}
+.supported-features ul {
+    padding: 0;
+}
+.supported-features li {
+    list-style: none;
+    text-align: left;
+}
+.supported-features img {
+    border-radius: 7px;
+    vertical-align: middle;
+}
+.supported-features h4 {
+    display: inline-block;
+    font-weight: 500;
+}
