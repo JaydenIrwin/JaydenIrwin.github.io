@@ -32,18 +32,6 @@
     background: linear-gradient(#F0CA00 0%, #F0CA00 49.9%, #007aff 50.1%, #007aff 100%);
     background-attachment: fixed;
 }
-#shot1 {
-    background-image: url(shot1.jpg);
-}
-#shot2 {
-    background-image: url(shot2.jpg);
-}
-#shot3 {
-    background-image: url(shot3.jpg);
-}
-#shot4 {
-    background-image: url(shot4.png);
-}
 .supported-features {
     background-color: var(--secondary-bg-color);
 }

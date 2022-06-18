@@ -14,12 +14,3 @@
     background: linear-gradient(#AAAAAF 0%, #AAAAAF 49.9%, #007aff 50.1%, #007aff 100%);
     background-attachment: fixed;
 }
-#shot1 {
-    background-image: url(shot1.jpg);
-}
-#shot2 {
-    background-image: url(shot2.jpg);
-}
-#shot3 {
-    background-image: url(shot3.jpg);
-}

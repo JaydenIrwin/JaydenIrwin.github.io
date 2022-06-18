@@ -30,15 +30,3 @@
 .button.web-app-get:hover {
     color: var(--accent-color);
 }
-#shot1 {
-    background-image: url(shot1.jpg);
-}
-#shot2 {
-    background-image: url(shot2.jpg);
-}
-#shot3 {
-    background-image: url(shot3.jpg);
-}
-#shot4 {
-    background-image: url(shot4.jpg);
-}

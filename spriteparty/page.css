@@ -24,15 +24,6 @@
     background: linear-gradient(#fc0 0%, #fc0 49.9%, #007aff 50.1%, #007aff 100%);
     background-attachment: fixed;
 }
-#shot1 {
-    background-image: url(shot1.png);
-}
-#shot2 {
-    background-image: url(shot2.png);
-}
-#shot3 {
-    background-image: url(shot3.jpg);
-}
 .router-link:hover {
     text-decoration: none;
 }
