@@ -355,6 +355,9 @@ pre code {
         width: initial;
     }
 }
+.screenshot {
+    border-radius: 32px;
+}
 .phone {
     display: flex;
     padding: 12px;
