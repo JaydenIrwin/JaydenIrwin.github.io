@@ -358,29 +358,6 @@ pre code {
 .screenshot {
     border-radius: 32px;
 }
-.phone {
-    display: flex;
-    padding: 12px;
-    justify-content: center;
-    scroll-snap-type: x mandatory;
-}
-.phone div {
-    scroll-snap-align: center none;
-    text-align: center;
-    text-decoration: none;
-}
-.phone div img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 89%;
-}
-.phone div.landscape img {
-    background-size: 95%;
-}
-.phone div h3 {
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
 .features {
     display: flex;
     justify-content: center;
