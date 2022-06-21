@@ -357,6 +357,7 @@ pre code {
 }
 .screenshot {
     border-radius: 32px;
+    max-width: 96%;
 }
 .features {
     display: flex;
