@@ -2,24 +2,3 @@
     background: url("banner.jpg") no-repeat center center;
     background-size: cover;
 }
-#shot1 {
-    background-image: url(/shot_fa.jpg);
-}
-#shot2 {
-    background-image: url(/shot_lp.jpg);
-}
-#shot3 {
-    background-image: url(/shot_nix_qc.jpg);
-}
-#shot4 {
-    background-image: url(/shot_nix_test.jpg);
-}
-#shot5 {
-    background-image: url(/shot_ss.jpg);
-}
-#shot6 {
-    background-image: url(/shot_gluck.jpg);
-}
-#shot7 {
-    background-image: url(/shot_ecobee.jpg);
-}
