@@ -9,7 +9,7 @@ function updateBody() {
 }
 
 function gRecaptchaTrue() {
-	let to = "info";
+	let to = "cots.smith0a";
 	mailto = "mailto:" + to + "@";
 	updateLink();
 }
@@ -20,7 +20,7 @@ function gRecaptchaFalse() {
 }
 
 function updateLink() {
-	let domain = "jaydenirwin.com";
+	let domain = "icloud.com";
 	if (mailto != "") {
 		$("#review-message").attr("href", mailto + domain + body).attr("onclick", "send()").removeClass("disabled");
 	} else {
