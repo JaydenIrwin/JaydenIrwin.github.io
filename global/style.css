@@ -291,7 +291,7 @@ pre code {
     display: inline-block;
     background-color: #08f;
     color: #fff;
-    width: 120px;
+    min-width: 120px;
     line-height: 36px;
     border-radius: 20px;
     font-size: 20px;
