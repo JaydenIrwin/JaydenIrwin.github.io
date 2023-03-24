@@ -57,6 +57,10 @@
     color: #1987FF;
     padding: 1px 6px;
 }
+.models a .tag.popular-tag {
+    background-color: #FFB40033;
+    color: #FFB400;
+}
 .models a .tag.buy-tag {
     background-color: #06c50033;
     color: #06c500;
